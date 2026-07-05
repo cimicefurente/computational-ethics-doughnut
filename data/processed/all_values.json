@@ -1,0 +1,3403 @@
+{
+  "Afghanistan": {
+    "bio": {
+      "co2": 9,
+      "phosphorus": 7,
+      "nitrogen": 13,
+      "ehanpp": 21,
+      "eco_footprint": 37,
+      "material_footprint": 25
+    },
+    "soc": {
+      "life_satisfaction": 25,
+      "healthy_life_exp": 40,
+      "nutrition": 41,
+      "sanitation": 22,
+      "energy_access": 41,
+      "education": 50,
+      "social_support": 37,
+      "democratic_quality": 7,
+      "employment": 91
+    }
+  },
+  "Albania": {
+    "bio": {
+      "co2": 163,
+      "phosphorus": 231,
+      "nitrogen": 310,
+      "blue_water": 94,
+      "ehanpp": 110,
+      "eco_footprint": 117,
+      "material_footprint": 180
+    },
+    "soc": {
+      "life_satisfaction": 82,
+      "healthy_life_exp": 110,
+      "nutrition": 132,
+      "sanitation": 99,
+      "income": 105,
+      "energy_access": 106,
+      "education": 95,
+      "social_support": 76,
+      "democratic_quality": 69,
+      "equality": 92,
+      "employment": 69
+    }
+  },
+  "Algeria": {
+    "bio": {
+      "co2": 130,
+      "phosphorus": 121,
+      "nitrogen": 28,
+      "blue_water": 57,
+      "ehanpp": 48,
+      "eco_footprint": 95,
+      "material_footprint": 37
+    },
+    "soc": {
+      "life_satisfaction": 67,
+      "healthy_life_exp": 85,
+      "nutrition": 152,
+      "sanitation": 100,
+      "energy_access": 106,
+      "education": 106,
+      "social_support": 85,
+      "democratic_quality": 33,
+      "equality": 85,
+      "employment": 84
+    }
+  },
+  "Angola": {
+    "bio": {
+      "co2": 63,
+      "phosphorus": 17,
+      "nitrogen": 19,
+      "blue_water": 10,
+      "ehanpp": 248,
+      "eco_footprint": 52,
+      "material_footprint": 56
+    },
+    "soc": {
+      "life_satisfaction": 74,
+      "healthy_life_exp": 22,
+      "nutrition": 70,
+      "sanitation": 57,
+      "energy_access": 35,
+      "education": 18,
+      "social_support": 70,
+      "democratic_quality": 48,
+      "equality": 26,
+      "employment": 96
+    }
+  },
+  "Argentina": {
+    "bio": {
+      "co2": 327,
+      "phosphorus": 119,
+      "nitrogen": 112,
+      "blue_water": 48,
+      "ehanpp": 188,
+      "eco_footprint": 162,
+      "material_footprint": 171
+    },
+    "soc": {
+      "life_satisfaction": 108,
+      "healthy_life_exp": 107,
+      "nutrition": 145,
+      "sanitation": 102,
+      "income": 104,
+      "energy_access": 105,
+      "education": 111,
+      "social_support": 98,
+      "democratic_quality": 81,
+      "equality": 62,
+      "employment": 95
+    }
+  },
+  "Armenia": {
+    "bio": {
+      "co2": 170,
+      "phosphorus": 236,
+      "nitrogen": 284,
+      "blue_water": 88,
+      "ehanpp": 73,
+      "eco_footprint": 108,
+      "material_footprint": 74
+    },
+    "soc": {
+      "life_satisfaction": 37,
+      "healthy_life_exp": 100,
+      "nutrition": 111,
+      "sanitation": 95,
+      "income": 103,
+      "energy_access": 106,
+      "social_support": 67,
+      "democratic_quality": 60,
+      "equality": 80,
+      "employment": 51
+    }
+  },
+  "Australia": {
+    "bio": {
+      "co2": 1180,
+      "phosphorus": 961,
+      "nitrogen": 554,
+      "blue_water": 90,
+      "ehanpp": 265,
+      "eco_footprint": 484,
+      "material_footprint": 485
+    },
+    "soc": {
+      "life_satisfaction": 125,
+      "healthy_life_exp": 126,
+      "nutrition": 156,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 149,
+      "social_support": 111,
+      "democratic_quality": 114,
+      "equality": 99,
+      "employment": 104
+    }
+  },
+  "Austria": {
+    "bio": {
+      "co2": 770,
+      "phosphorus": 620,
+      "nitrogen": 790,
+      "blue_water": 45,
+      "ehanpp": 102,
+      "eco_footprint": 298,
+      "material_footprint": 409
+    },
+    "soc": {
+      "life_satisfaction": 127,
+      "healthy_life_exp": 122,
+      "nutrition": 208,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 104,
+      "social_support": 107,
+      "democratic_quality": 117,
+      "equality": 107,
+      "employment": 107
+    }
+  },
+  "Azerbaijan": {
+    "bio": {
+      "co2": 276,
+      "phosphorus": 117,
+      "nitrogen": 124,
+      "blue_water": 86,
+      "ehanpp": 67,
+      "eco_footprint": 108,
+      "material_footprint": 48
+    },
+    "soc": {
+      "life_satisfaction": 49,
+      "healthy_life_exp": 88,
+      "nutrition": 125,
+      "sanitation": 85,
+      "energy_access": 106,
+      "social_support": 71,
+      "democratic_quality": 43,
+      "equality": 128,
+      "employment": 102
+    }
+  },
+  "Bahrain": {
+    "bio": {
+      "co2": 822,
+      "phosphorus": 139,
+      "nitrogen": 169,
+      "ehanpp": 29,
+      "eco_footprint": 363,
+      "material_footprint": 353
+    },
+    "soc": {
+      "life_satisfaction": 53,
+      "healthy_life_exp": 102,
+      "sanitation": 105,
+      "income": 107,
+      "energy_access": 103,
+      "education": 100,
+      "social_support": 101,
+      "democratic_quality": 36,
+      "employment": 94
+    }
+  },
+  "Bangladesh": {
+    "bio": {
+      "co2": 28,
+      "phosphorus": 23,
+      "nitrogen": 43,
+      "blue_water": 36,
+      "ehanpp": 30,
+      "eco_footprint": 38,
+      "material_footprint": 25
+    },
+    "soc": {
+      "life_satisfaction": 58,
+      "healthy_life_exp": 81,
+      "nutrition": 73,
+      "sanitation": 53,
+      "income": 50,
+      "energy_access": 60,
+      "education": 45,
+      "social_support": 51,
+      "democratic_quality": 44,
+      "equality": 67,
+      "employment": 106
+    }
+  },
+  "Belarus": {
+    "bio": {
+      "blue_water": 32,
+      "ehanpp": 179,
+      "eco_footprint": 212
+    },
+    "soc": {
+      "life_satisfaction": 64,
+      "healthy_life_exp": 92,
+      "nutrition": 155,
+      "sanitation": 98,
+      "income": 107,
+      "energy_access": 106,
+      "education": 114,
+      "social_support": 102,
+      "democratic_quality": 43,
+      "equality": 109,
+      "employment": 100
+    }
+  },
+  "Belgium": {
+    "bio": {
+      "co2": 661,
+      "phosphorus": 424,
+      "nitrogen": 530,
+      "blue_water": 64,
+      "ehanpp": 116,
+      "eco_footprint": 335,
+      "material_footprint": 356
+    },
+    "soc": {
+      "life_satisfaction": 117,
+      "healthy_life_exp": 124,
+      "nutrition": 209,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 114,
+      "social_support": 106,
+      "democratic_quality": 111,
+      "equality": 110,
+      "employment": 96
+    }
+  },
+  "Benin": {
+    "bio": {
+      "co2": 35,
+      "phosphorus": 19,
+      "nitrogen": 21,
+      "blue_water": 7,
+      "ehanpp": 109,
+      "eco_footprint": 70,
+      "material_footprint": 48
+    },
+    "soc": {
+      "life_satisfaction": 26,
+      "healthy_life_exp": 44,
+      "nutrition": 89,
+      "sanitation": 5,
+      "income": 37,
+      "energy_access": 36,
+      "education": 41,
+      "social_support": 29,
+      "democratic_quality": 80,
+      "equality": 83,
+      "employment": 120
+    }
+  },
+  "Bolivia": {
+    "bio": {
+      "co2": 84,
+      "phosphorus": 39,
+      "nitrogen": 36,
+      "blue_water": 25,
+      "ehanpp": 345,
+      "eco_footprint": 158,
+      "material_footprint": 64
+    },
+    "soc": {
+      "life_satisfaction": 80,
+      "healthy_life_exp": 73,
+      "nutrition": 56,
+      "sanitation": 43,
+      "income": 95,
+      "energy_access": 95,
+      "education": 84,
+      "social_support": 86,
+      "democratic_quality": 63,
+      "equality": 41,
+      "employment": 113
+    }
+  },
+  "Bosnia and Herzegovina": {
+    "bio": {
+      "co2": 538,
+      "phosphorus": 170,
+      "nitrogen": 260,
+      "blue_water": 15,
+      "ehanpp": 113,
+      "eco_footprint": 154,
+      "material_footprint": 124
+    },
+    "soc": {
+      "life_satisfaction": 58,
+      "healthy_life_exp": 108,
+      "nutrition": 143,
+      "sanitation": 101,
+      "energy_access": 106,
+      "social_support": 71,
+      "democratic_quality": 55,
+      "equality": 86,
+      "employment": 15
+    }
+  },
+  "Botswana": {
+    "bio": {
+      "co2": 360,
+      "phosphorus": 177,
+      "nitrogen": 194,
+      "blue_water": 81,
+      "ehanpp": 88,
+      "eco_footprint": 182,
+      "material_footprint": 210
+    },
+    "soc": {
+      "life_satisfaction": 16,
+      "healthy_life_exp": 6,
+      "nutrition": 59,
+      "sanitation": 64,
+      "energy_access": 53,
+      "social_support": 93,
+      "democratic_quality": 97,
+      "equality": 40,
+      "employment": 54
+    }
+  },
+  "Brazil": {
+    "bio": {
+      "co2": 184,
+      "phosphorus": 201,
+      "nitrogen": 111,
+      "blue_water": 30,
+      "ehanpp": 189,
+      "eco_footprint": 166,
+      "material_footprint": 197
+    },
+    "soc": {
+      "life_satisfaction": 115,
+      "healthy_life_exp": 94,
+      "nutrition": 158,
+      "sanitation": 83,
+      "income": 100,
+      "energy_access": 105,
+      "education": 100,
+      "social_support": 103,
+      "democratic_quality": 79,
+      "equality": 50,
+      "employment": 97
+    }
+  },
+  "Bulgaria": {
+    "bio": {
+      "co2": 338,
+      "phosphorus": 111,
+      "nitrogen": 140,
+      "blue_water": 43,
+      "ehanpp": 82,
+      "eco_footprint": 153,
+      "material_footprint": 155
+    },
+    "soc": {
+      "life_satisfaction": 26,
+      "healthy_life_exp": 104,
+      "nutrition": 118,
+      "sanitation": 106,
+      "income": 104,
+      "energy_access": 106,
+      "education": 98,
+      "social_support": 93,
+      "democratic_quality": 85,
+      "equality": 103,
+      "employment": 79
+    }
+  },
+  "Burkina Faso": {
+    "bio": {
+      "co2": 14,
+      "phosphorus": 32,
+      "nitrogen": 41,
+      "blue_water": 11,
+      "ehanpp": 167,
+      "eco_footprint": 62,
+      "material_footprint": 32
+    },
+    "soc": {
+      "life_satisfaction": 52,
+      "healthy_life_exp": 36,
+      "nutrition": 96,
+      "sanitation": 10,
+      "energy_access": 8,
+      "education": 12,
+      "social_support": 68,
+      "democratic_quality": 58,
+      "equality": 75,
+      "employment": 111
+    }
+  },
+  "Burundi": {
+    "bio": {
+      "co2": 10,
+      "phosphorus": 10,
+      "nitrogen": 18,
+      "blue_water": 5,
+      "ehanpp": 83,
+      "eco_footprint": 44,
+      "material_footprint": 23
+    },
+    "soc": {
+      "life_satisfaction": 22,
+      "healthy_life_exp": 27,
+      "sanitation": 47,
+      "energy_access": 0,
+      "education": 14,
+      "social_support": 20,
+      "democratic_quality": 26,
+      "equality": 89,
+      "employment": 96
+    }
+  },
+  "Cambodia": {
+    "bio": {
+      "co2": 36,
+      "phosphorus": 40,
+      "nitrogen": 44,
+      "blue_water": 26,
+      "ehanpp": 124,
+      "eco_footprint": 63,
+      "material_footprint": 40
+    },
+    "soc": {
+      "life_satisfaction": 34,
+      "healthy_life_exp": 82,
+      "nutrition": 71,
+      "sanitation": 28,
+      "income": 96,
+      "energy_access": 28,
+      "social_support": 69,
+      "democratic_quality": 52,
+      "equality": 67,
+      "employment": 122
+    }
+  },
+  "Cameroon": {
+    "bio": {
+      "co2": 17,
+      "phosphorus": 8,
+      "nitrogen": 11,
+      "blue_water": 12,
+      "ehanpp": 134,
+      "eco_footprint": 65,
+      "material_footprint": 23
+    },
+    "soc": {
+      "life_satisfaction": 42,
+      "healthy_life_exp": 31,
+      "nutrition": 89,
+      "sanitation": 45,
+      "energy_access": 53,
+      "education": 41,
+      "social_support": 73,
+      "democratic_quality": 44,
+      "equality": 73,
+      "employment": 109
+    }
+  },
+  "Canada": {
+    "bio": {
+      "co2": 1077,
+      "phosphorus": 1620,
+      "nitrogen": 1516,
+      "blue_water": 66,
+      "ehanpp": 212,
+      "eco_footprint": 382,
+      "material_footprint": 450
+    },
+    "soc": {
+      "life_satisfaction": 126,
+      "healthy_life_exp": 123,
+      "nutrition": 172,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 110,
+      "social_support": 104,
+      "democratic_quality": 115,
+      "equality": 95,
+      "employment": 94
+    }
+  },
+  "Central African Republic": {
+    "bio": {
+      "co2": 8,
+      "phosphorus": 13,
+      "nitrogen": 21,
+      "blue_water": 9,
+      "ehanpp": 167,
+      "eco_footprint": 68,
+      "material_footprint": 45
+    },
+    "soc": {
+      "life_satisfaction": 21,
+      "healthy_life_exp": 11,
+      "nutrition": 46,
+      "sanitation": 28,
+      "energy_access": 5,
+      "education": 4,
+      "social_support": 14,
+      "democratic_quality": 24,
+      "equality": 49,
+      "employment": 96
+    }
+  },
+  "Chad": {
+    "bio": {
+      "co2": 4,
+      "phosphorus": 7,
+      "nitrogen": 12,
+      "blue_water": 8,
+      "ehanpp": 126,
+      "eco_footprint": 76,
+      "material_footprint": 25
+    },
+    "soc": {
+      "life_satisfaction": 41,
+      "healthy_life_exp": 19,
+      "nutrition": 36,
+      "sanitation": 2,
+      "income": 56,
+      "energy_access": 0,
+      "education": 11,
+      "social_support": 86,
+      "democratic_quality": 28,
+      "equality": 74,
+      "employment": 96
+    }
+  },
+  "Chile": {
+    "bio": {
+      "co2": 311,
+      "phosphorus": 232,
+      "nitrogen": 174,
+      "blue_water": 73,
+      "ehanpp": 132,
+      "eco_footprint": 227,
+      "material_footprint": 313
+    },
+    "soc": {
+      "life_satisfaction": 101,
+      "healthy_life_exp": 116,
+      "nutrition": 129,
+      "sanitation": 104,
+      "income": 105,
+      "energy_access": 105,
+      "education": 98,
+      "social_support": 86,
+      "democratic_quality": 99,
+      "equality": 50,
+      "employment": 96
+    }
+  },
+  "China": {
+    "bio": {
+      "co2": 399,
+      "phosphorus": 299,
+      "nitrogen": 289,
+      "blue_water": 54,
+      "ehanpp": 38,
+      "eco_footprint": 145,
+      "material_footprint": 172
+    },
+    "soc": {
+      "life_satisfaction": 59,
+      "healthy_life_exp": 111,
+      "nutrition": 137,
+      "sanitation": 65,
+      "income": 92,
+      "energy_access": 106,
+      "education": 93,
+      "social_support": 81,
+      "democratic_quality": 36,
+      "equality": 50,
+      "employment": 107
+    }
+  },
+  "Colombia": {
+    "bio": {
+      "co2": 153,
+      "phosphorus": 90,
+      "nitrogen": 80,
+      "blue_water": 27,
+      "ehanpp": 142,
+      "eco_footprint": 97,
+      "material_footprint": 107
+    },
+    "soc": {
+      "life_satisfaction": 99,
+      "healthy_life_exp": 94,
+      "nutrition": 89,
+      "sanitation": 80,
+      "income": 97,
+      "energy_access": 102,
+      "education": 111,
+      "social_support": 101,
+      "democratic_quality": 50,
+      "equality": 44,
+      "employment": 80
+    }
+  },
+  "Congo": {
+    "bio": {
+      "co2": 28,
+      "phosphorus": 26,
+      "nitrogen": 39,
+      "blue_water": 19,
+      "ehanpp": 304,
+      "eco_footprint": 60,
+      "material_footprint": 52
+    },
+    "soc": {
+      "nutrition": 50,
+      "sanitation": 10,
+      "income": 69,
+      "energy_access": 40,
+      "equality": 70,
+      "employment": 98
+    }
+  },
+  "Costa Rica": {
+    "bio": {
+      "co2": 172,
+      "phosphorus": 120,
+      "nitrogen": 114,
+      "blue_water": 44,
+      "ehanpp": 157,
+      "eco_footprint": 129,
+      "material_footprint": 141
+    },
+    "soc": {
+      "life_satisfaction": 120,
+      "healthy_life_exp": 117,
+      "nutrition": 120,
+      "sanitation": 98,
+      "income": 104,
+      "energy_access": 105,
+      "education": 112,
+      "social_support": 99,
+      "democratic_quality": 99,
+      "equality": 62,
+      "employment": 93
+    }
+  },
+  "Croatia": {
+    "bio": {
+      "co2": 461,
+      "phosphorus": 375,
+      "nitrogen": 485,
+      "blue_water": 19,
+      "ehanpp": 70,
+      "eco_footprint": 188,
+      "material_footprint": 243
+    },
+    "soc": {
+      "life_satisfaction": 69,
+      "healthy_life_exp": 107,
+      "nutrition": 135,
+      "sanitation": 104,
+      "income": 106,
+      "energy_access": 106,
+      "education": 106,
+      "social_support": 82,
+      "democratic_quality": 91,
+      "equality": 105,
+      "employment": 71
+    }
+  },
+  "Cuba": {
+    "bio": {
+      "co2": 210,
+      "phosphorus": 44,
+      "nitrogen": 55,
+      "blue_water": 50,
+      "ehanpp": 173,
+      "eco_footprint": 91,
+      "material_footprint": 109
+    },
+    "soc": {
+      "nutrition": 157,
+      "sanitation": 97,
+      "energy_access": 106,
+      "education": 97,
+      "employment": 111
+    }
+  },
+  "Cyprus": {
+    "bio": {
+      "co2": 785,
+      "phosphorus": 238,
+      "nitrogen": 289,
+      "blue_water": 119,
+      "ehanpp": 79,
+      "eco_footprint": 209,
+      "material_footprint": 601
+    },
+    "soc": {
+      "life_satisfaction": 105,
+      "healthy_life_exp": 125,
+      "nutrition": 96,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 97,
+      "social_support": 91,
+      "democratic_quality": 101,
+      "equality": 104,
+      "employment": 93
+    }
+  },
+  "Czech Republic": {
+    "bio": {
+      "co2": 679,
+      "phosphorus": 408,
+      "nitrogen": 709,
+      "blue_water": 37,
+      "ehanpp": 92,
+      "eco_footprint": 262,
+      "material_footprint": 310
+    },
+    "soc": {
+      "life_satisfaction": 95,
+      "healthy_life_exp": 115,
+      "nutrition": 159,
+      "sanitation": 106,
+      "income": 106,
+      "energy_access": 106,
+      "education": 101,
+      "social_support": 102,
+      "democratic_quality": 108,
+      "equality": 111,
+      "employment": 97
+    }
+  },
+  "Côte d'Ivoire": {
+    "bio": {
+      "co2": 6,
+      "phosphorus": 5,
+      "nitrogen": 7,
+      "blue_water": 19,
+      "ehanpp": 76,
+      "eco_footprint": 59,
+      "material_footprint": 24
+    },
+    "soc": {
+      "nutrition": 108,
+      "sanitation": 17,
+      "energy_access": 56,
+      "equality": 61,
+      "employment": 108
+    }
+  },
+  "Denmark": {
+    "bio": {
+      "co2": 729,
+      "phosphorus": 487,
+      "nitrogen": 823,
+      "blue_water": 44,
+      "ehanpp": 119,
+      "eco_footprint": 249,
+      "material_footprint": 377
+    },
+    "soc": {
+      "life_satisfaction": 136,
+      "healthy_life_exp": 118,
+      "nutrition": 166,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 134,
+      "social_support": 110,
+      "democratic_quality": 119,
+      "equality": 118,
+      "employment": 94
+    }
+  },
+  "Dominican Republic": {
+    "bio": {
+      "co2": 176,
+      "phosphorus": 88,
+      "nitrogen": 78,
+      "blue_water": 55,
+      "ehanpp": 105,
+      "eco_footprint": 74,
+      "material_footprint": 119
+    },
+    "soc": {
+      "life_satisfaction": 69,
+      "healthy_life_exp": 91,
+      "nutrition": 90,
+      "sanitation": 85,
+      "income": 103,
+      "energy_access": 103,
+      "education": 76,
+      "social_support": 95,
+      "democratic_quality": 73,
+      "equality": 55,
+      "employment": 66
+    }
+  },
+  "Ecuador": {
+    "bio": {
+      "co2": 142,
+      "phosphorus": 77,
+      "nitrogen": 72,
+      "blue_water": 58,
+      "ehanpp": 104,
+      "eco_footprint": 101,
+      "material_footprint": 139
+    },
+    "soc": {
+      "life_satisfaction": 80,
+      "healthy_life_exp": 107,
+      "nutrition": 78,
+      "sanitation": 98,
+      "income": 98,
+      "energy_access": 102,
+      "education": 97,
+      "social_support": 86,
+      "democratic_quality": 55,
+      "equality": 49,
+      "employment": 107
+    }
+  },
+  "Egypt": {
+    "bio": {
+      "co2": 203,
+      "phosphorus": 56,
+      "nitrogen": 82,
+      "blue_water": 226,
+      "ehanpp": 15,
+      "eco_footprint": 101,
+      "material_footprint": 110
+    },
+    "soc": {
+      "life_satisfaction": 35,
+      "healthy_life_exp": 84,
+      "nutrition": 185,
+      "sanitation": 100,
+      "energy_access": 106,
+      "education": 83,
+      "social_support": 75,
+      "democratic_quality": 30,
+      "equality": 92,
+      "employment": 76
+    }
+  },
+  "El Salvador": {
+    "bio": {
+      "co2": 107,
+      "phosphorus": 77,
+      "nitrogen": 68,
+      "blue_water": 23,
+      "ehanpp": 105,
+      "eco_footprint": 98,
+      "material_footprint": 96
+    },
+    "soc": {
+      "life_satisfaction": 51,
+      "healthy_life_exp": 92,
+      "nutrition": 81,
+      "sanitation": 71,
+      "income": 100,
+      "energy_access": 99,
+      "education": 75,
+      "social_support": 72,
+      "democratic_quality": 75,
+      "equality": 67,
+      "employment": 98
+    }
+  },
+  "Eritrea": {
+    "bio": {
+      "co2": 9,
+      "phosphorus": 33,
+      "nitrogen": 22,
+      "blue_water": 9,
+      "ehanpp": 70,
+      "eco_footprint": 25,
+      "material_footprint": 17
+    },
+    "soc": {
+      "energy_access": 33,
+      "education": 26,
+      "employment": 95
+    }
+  },
+  "Estonia": {
+    "bio": {
+      "co2": 878,
+      "phosphorus": 500,
+      "nitrogen": 802,
+      "blue_water": 78,
+      "ehanpp": 173,
+      "eco_footprint": 317,
+      "material_footprint": 242
+    },
+    "soc": {
+      "life_satisfaction": 72,
+      "healthy_life_exp": 105,
+      "nutrition": 151,
+      "sanitation": 103,
+      "income": 105,
+      "energy_access": 106,
+      "education": 115,
+      "social_support": 101,
+      "democratic_quality": 102,
+      "equality": 90,
+      "employment": 74
+    }
+  },
+  "Ethiopia": {
+    "bio": {
+      "blue_water": 9,
+      "ehanpp": 99,
+      "eco_footprint": 55
+    },
+    "soc": {
+      "nutrition": 41,
+      "sanitation": 13,
+      "income": 63,
+      "energy_access": 23,
+      "education": 27,
+      "equality": 101,
+      "employment": 102
+    }
+  },
+  "Finland": {
+    "bio": {
+      "co2": 910,
+      "phosphorus": 736,
+      "nitrogen": 1082,
+      "blue_water": 37,
+      "ehanpp": 169,
+      "eco_footprint": 281,
+      "material_footprint": 431
+    },
+    "soc": {
+      "life_satisfaction": 124,
+      "healthy_life_exp": 121,
+      "nutrition": 158,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 115,
+      "social_support": 106,
+      "democratic_quality": 122,
+      "equality": 111,
+      "employment": 93
+    }
+  },
+  "France": {
+    "bio": {
+      "co2": 540,
+      "phosphorus": 807,
+      "nitrogen": 982,
+      "blue_water": 59,
+      "ehanpp": 113,
+      "eco_footprint": 242,
+      "material_footprint": 318
+    },
+    "soc": {
+      "life_satisfaction": 113,
+      "healthy_life_exp": 127,
+      "nutrition": 182,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 120,
+      "social_support": 104,
+      "democratic_quality": 103,
+      "equality": 105,
+      "employment": 87
+    }
+  },
+  "Gabon": {
+    "bio": {
+      "co2": 103,
+      "phosphorus": 76,
+      "nitrogen": 107,
+      "blue_water": 26,
+      "ehanpp": 258,
+      "eco_footprint": 143,
+      "material_footprint": 75
+    },
+    "soc": {
+      "life_satisfaction": 37,
+      "healthy_life_exp": 58,
+      "nutrition": 108,
+      "sanitation": 27,
+      "energy_access": 94,
+      "social_support": 59,
+      "democratic_quality": 64,
+      "equality": 67,
+      "employment": 43
+    }
+  },
+  "Georgia": {
+    "bio": {
+      "co2": 173,
+      "phosphorus": 128,
+      "nitrogen": 329,
+      "blue_water": 67,
+      "ehanpp": 70,
+      "eco_footprint": 73,
+      "material_footprint": 98
+    },
+    "soc": {
+      "life_satisfaction": 36,
+      "healthy_life_exp": 99,
+      "nutrition": 103,
+      "sanitation": 98,
+      "income": 84,
+      "energy_access": 106,
+      "social_support": 33,
+      "democratic_quality": 58,
+      "equality": 70,
+      "employment": 64
+    }
+  },
+  "Germany": {
+    "bio": {
+      "co2": 674,
+      "phosphorus": 539,
+      "nitrogen": 849,
+      "blue_water": 41,
+      "ehanpp": 76,
+      "eco_footprint": 254,
+      "material_footprint": 301
+    },
+    "soc": {
+      "life_satisfaction": 103,
+      "healthy_life_exp": 122,
+      "nutrition": 184,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 111,
+      "social_support": 108,
+      "democratic_quality": 110,
+      "equality": 105,
+      "employment": 100
+    }
+  },
+  "Ghana": {
+    "bio": {
+      "co2": 34,
+      "phosphorus": 9,
+      "nitrogen": 11,
+      "blue_water": 9,
+      "ehanpp": 102,
+      "eco_footprint": 98,
+      "material_footprint": 49
+    },
+    "soc": {
+      "life_satisfaction": 75,
+      "healthy_life_exp": 55,
+      "nutrition": 130,
+      "sanitation": 5,
+      "energy_access": 65,
+      "education": 53,
+      "social_support": 71,
+      "democratic_quality": 84,
+      "equality": 70,
+      "employment": 107
+    }
+  },
+  "Greece": {
+    "bio": {
+      "co2": 824,
+      "phosphorus": 492,
+      "nitrogen": 579,
+      "blue_water": 154,
+      "ehanpp": 110,
+      "eco_footprint": 227,
+      "material_footprint": 495
+    },
+    "soc": {
+      "life_satisfaction": 68,
+      "healthy_life_exp": 122,
+      "nutrition": 173,
+      "sanitation": 104,
+      "income": 107,
+      "energy_access": 106,
+      "education": 110,
+      "social_support": 92,
+      "democratic_quality": 84,
+      "equality": 93,
+      "employment": 54
+    }
+  },
+  "Guatemala": {
+    "bio": {
+      "co2": 73,
+      "phosphorus": 58,
+      "nitrogen": 52,
+      "blue_water": 13,
+      "ehanpp": 100,
+      "eco_footprint": 98,
+      "material_footprint": 67
+    },
+    "soc": {
+      "life_satisfaction": 79,
+      "healthy_life_exp": 87,
+      "nutrition": 80,
+      "sanitation": 83,
+      "income": 91,
+      "energy_access": 81,
+      "education": 61,
+      "social_support": 78,
+      "democratic_quality": 54,
+      "equality": 52,
+      "employment": 107
+    }
+  },
+  "Guinea": {
+    "bio": {
+      "co2": 13,
+      "phosphorus": 13,
+      "nitrogen": 16,
+      "blue_water": 12,
+      "ehanpp": 167,
+      "eco_footprint": 72,
+      "material_footprint": 32
+    },
+    "soc": {
+      "life_satisfaction": 31,
+      "healthy_life_exp": 33,
+      "nutrition": 85,
+      "sanitation": 10,
+      "income": 61,
+      "energy_access": 22,
+      "education": 29,
+      "social_support": 49,
+      "democratic_quality": 33,
+      "equality": 72,
+      "employment": 117
+    }
+  },
+  "Guinea-Bissau": {
+    "bio": {
+      "blue_water": 41,
+      "ehanpp": 83,
+      "eco_footprint": 80
+    },
+    "soc": {
+      "nutrition": 61,
+      "sanitation": 11,
+      "income": 19,
+      "energy_access": 61,
+      "equality": 77,
+      "employment": 97
+    }
+  },
+  "Haiti": {
+    "bio": {
+      "co2": 21,
+      "phosphorus": 19,
+      "nitrogen": 22,
+      "blue_water": 32,
+      "ehanpp": 83,
+      "eco_footprint": 31,
+      "material_footprint": 24
+    },
+    "soc": {
+      "life_satisfaction": 54,
+      "healthy_life_exp": 52,
+      "nutrition": 41,
+      "sanitation": 19,
+      "income": 36,
+      "energy_access": 36,
+      "social_support": 44,
+      "democratic_quality": 42,
+      "employment": 97
+    }
+  },
+  "Honduras": {
+    "bio": {
+      "co2": 90,
+      "phosphorus": 81,
+      "nitrogen": 76,
+      "blue_water": 18,
+      "ehanpp": 174,
+      "eco_footprint": 88,
+      "material_footprint": 61
+    },
+    "soc": {
+      "life_satisfaction": 57,
+      "healthy_life_exp": 94,
+      "nutrition": 95,
+      "sanitation": 83,
+      "income": 82,
+      "energy_access": 86,
+      "education": 73,
+      "social_support": 78,
+      "democratic_quality": 57,
+      "equality": 39,
+      "employment": 106
+    }
+  },
+  "Hungary": {
+    "bio": {
+      "co2": 399,
+      "phosphorus": 267,
+      "nitrogen": 461,
+      "blue_water": 32,
+      "ehanpp": 84,
+      "eco_footprint": 163,
+      "material_footprint": 217
+    },
+    "soc": {
+      "life_satisfaction": 56,
+      "healthy_life_exp": 103,
+      "nutrition": 127,
+      "sanitation": 106,
+      "income": 106,
+      "energy_access": 106,
+      "education": 107,
+      "social_support": 99,
+      "democratic_quality": 99,
+      "equality": 103,
+      "employment": 81
+    }
+  },
+  "India": {
+    "bio": {
+      "co2": 107,
+      "phosphorus": 63,
+      "nitrogen": 77,
+      "blue_water": 90,
+      "ehanpp": 37,
+      "eco_footprint": 53,
+      "material_footprint": 51
+    },
+    "soc": {
+      "life_satisfaction": 48,
+      "healthy_life_exp": 70,
+      "nutrition": 76,
+      "sanitation": 30,
+      "income": 79,
+      "energy_access": 82,
+      "education": 65,
+      "social_support": 42,
+      "democratic_quality": 58,
+      "equality": 48,
+      "employment": 110
+    }
+  },
+  "Indonesia": {
+    "bio": {
+      "co2": 134,
+      "phosphorus": 48,
+      "nitrogen": 47,
+      "blue_water": 30,
+      "ehanpp": 85,
+      "eco_footprint": 77,
+      "material_footprint": 66
+    },
+    "soc": {
+      "life_satisfaction": 63,
+      "healthy_life_exp": 87,
+      "nutrition": 101,
+      "sanitation": 57,
+      "income": 86,
+      "energy_access": 101,
+      "education": 80,
+      "social_support": 87,
+      "democratic_quality": 59,
+      "equality": 85,
+      "employment": 98
+    }
+  },
+  "Iran": {
+    "bio": {
+      "co2": 556,
+      "phosphorus": 248,
+      "nitrogen": 248,
+      "blue_water": 252,
+      "ehanpp": 30,
+      "eco_footprint": 122,
+      "material_footprint": 189
+    },
+    "soc": {
+      "life_satisfaction": 51,
+      "healthy_life_exp": 94,
+      "nutrition": 136,
+      "sanitation": 105,
+      "energy_access": 106,
+      "education": 88,
+      "social_support": 47,
+      "democratic_quality": 23,
+      "equality": 67,
+      "employment": 71
+    }
+  },
+  "Iraq": {
+    "bio": {
+      "co2": 198,
+      "phosphorus": 157,
+      "nitrogen": 160,
+      "ehanpp": 25,
+      "eco_footprint": 91,
+      "material_footprint": 81
+    },
+    "soc": {
+      "life_satisfaction": 50,
+      "healthy_life_exp": 82,
+      "nutrition": 79,
+      "sanitation": 87,
+      "energy_access": 106,
+      "social_support": 75,
+      "democratic_quality": 22,
+      "employment": 64
+    }
+  },
+  "Ireland": {
+    "bio": {
+      "co2": 735,
+      "phosphorus": 720,
+      "nitrogen": 1026,
+      "blue_water": 44,
+      "ehanpp": 175,
+      "eco_footprint": 270,
+      "material_footprint": 423
+    },
+    "soc": {
+      "life_satisfaction": 114,
+      "healthy_life_exp": 122,
+      "nutrition": 189,
+      "sanitation": 105,
+      "income": 107,
+      "energy_access": 106,
+      "education": 134,
+      "social_support": 113,
+      "democratic_quality": 111,
+      "equality": 97,
+      "employment": 66
+    }
+  },
+  "Israel": {
+    "bio": {
+      "co2": 665,
+      "phosphorus": 524,
+      "nitrogen": 514,
+      "blue_water": 96,
+      "ehanpp": 62,
+      "eco_footprint": 276,
+      "material_footprint": 311
+    },
+    "soc": {
+      "life_satisfaction": 126,
+      "healthy_life_exp": 125,
+      "nutrition": 192,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 108,
+      "social_support": 99,
+      "democratic_quality": 64,
+      "equality": 82,
+      "employment": 102
+    }
+  },
+  "Italy": {
+    "bio": {
+      "co2": 588,
+      "phosphorus": 541,
+      "nitrogen": 531,
+      "blue_water": 90,
+      "ehanpp": 89,
+      "eco_footprint": 241,
+      "material_footprint": 327
+    },
+    "soc": {
+      "life_satisfaction": 88,
+      "healthy_life_exp": 129,
+      "nutrition": 184,
+      "income": 107,
+      "energy_access": 106,
+      "education": 110,
+      "social_support": 102,
+      "democratic_quality": 97,
+      "equality": 90,
+      "employment": 91
+    }
+  },
+  "Jamaica": {
+    "bio": {
+      "co2": 360,
+      "phosphorus": 116,
+      "nitrogen": 110,
+      "blue_water": 41,
+      "ehanpp": 102,
+      "eco_footprint": 98,
+      "material_footprint": 153
+    },
+    "soc": {
+      "life_satisfaction": 68,
+      "healthy_life_exp": 93,
+      "nutrition": 109,
+      "sanitation": 83,
+      "energy_access": 97,
+      "education": 97,
+      "social_support": 92,
+      "democratic_quality": 79,
+      "employment": 74
+    }
+  },
+  "Japan": {
+    "bio": {
+      "co2": 769,
+      "phosphorus": 519,
+      "nitrogen": 388,
+      "blue_water": 43,
+      "ehanpp": 62,
+      "eco_footprint": 221,
+      "material_footprint": 396
+    },
+    "soc": {
+      "life_satisfaction": 93,
+      "healthy_life_exp": 133,
+      "nutrition": 102,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 108,
+      "social_support": 103,
+      "democratic_quality": 108,
+      "equality": 100,
+      "employment": 106
+    }
+  },
+  "Jordan": {
+    "bio": {
+      "co2": 305,
+      "phosphorus": 91,
+      "nitrogen": 92,
+      "blue_water": 96,
+      "ehanpp": 42,
+      "eco_footprint": 85,
+      "material_footprint": 117
+    },
+    "soc": {
+      "life_satisfaction": 73,
+      "healthy_life_exp": 95,
+      "nutrition": 145,
+      "sanitation": 104,
+      "income": 106,
+      "energy_access": 105,
+      "education": 90,
+      "social_support": 96,
+      "democratic_quality": 51,
+      "equality": 78,
+      "employment": 73
+    }
+  },
+  "Kazakhstan": {
+    "bio": {
+      "co2": 751,
+      "phosphorus": 197,
+      "nitrogen": 362,
+      "blue_water": 164,
+      "ehanpp": 193,
+      "eco_footprint": 323,
+      "material_footprint": 236
+    },
+    "soc": {
+      "life_satisfaction": 79,
+      "healthy_life_exp": 85,
+      "nutrition": 141,
+      "sanitation": 103,
+      "income": 106,
+      "energy_access": 106,
+      "education": 105,
+      "social_support": 101,
+      "democratic_quality": 49,
+      "equality": 91,
+      "employment": 102
+    }
+  },
+  "Kenya": {
+    "bio": {
+      "co2": 34,
+      "phosphorus": 22,
+      "nitrogen": 19,
+      "blue_water": 13,
+      "ehanpp": 88,
+      "eco_footprint": 57,
+      "material_footprint": 45
+    },
+    "soc": {
+      "life_satisfaction": 41,
+      "healthy_life_exp": 53,
+      "nutrition": 49,
+      "sanitation": 23,
+      "energy_access": 19,
+      "social_support": 91,
+      "democratic_quality": 47,
+      "equality": 67,
+      "employment": 87
+    }
+  },
+  "Korea": {
+    "bio": {
+      "co2": 823,
+      "phosphorus": 462,
+      "nitrogen": 401,
+      "blue_water": 50,
+      "ehanpp": 72,
+      "eco_footprint": 260,
+      "material_footprint": 352
+    },
+    "soc": {
+      "life_satisfaction": 113,
+      "healthy_life_exp": 130,
+      "nutrition": 163,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 101,
+      "social_support": 85,
+      "democratic_quality": 90,
+      "equality": 97,
+      "employment": 110
+    }
+  },
+  "Kuwait": {
+    "bio": {
+      "co2": 1822,
+      "phosphorus": 764,
+      "nitrogen": 779,
+      "blue_water": 101,
+      "ehanpp": 61,
+      "eco_footprint": 515,
+      "material_footprint": 812
+    },
+    "soc": {
+      "life_satisfaction": 97,
+      "healthy_life_exp": 99,
+      "nutrition": 177,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 103,
+      "education": 98,
+      "social_support": 97,
+      "democratic_quality": 69,
+      "employment": 109
+    }
+  },
+  "Kyrgyz Republic": {
+    "bio": {
+      "co2": 118,
+      "phosphorus": 155,
+      "nitrogen": 391,
+      "blue_water": 120,
+      "ehanpp": 80,
+      "eco_footprint": 84,
+      "material_footprint": 135
+    },
+    "soc": {
+      "life_satisfaction": 56,
+      "healthy_life_exp": 87,
+      "nutrition": 113,
+      "sanitation": 98,
+      "income": 103,
+      "energy_access": 106,
+      "education": 89,
+      "social_support": 99,
+      "democratic_quality": 42,
+      "equality": 88,
+      "employment": 90
+    }
+  },
+  "Lao PDR": {
+    "bio": {
+      "co2": 25,
+      "phosphorus": 36,
+      "nitrogen": 37,
+      "blue_water": 29,
+      "ehanpp": 218,
+      "eco_footprint": 67,
+      "material_footprint": 54
+    },
+    "soc": {
+      "life_satisfaction": 50,
+      "healthy_life_exp": 74,
+      "nutrition": 66,
+      "sanitation": 61,
+      "income": 67,
+      "energy_access": 72,
+      "education": 38,
+      "social_support": 65,
+      "democratic_quality": 45,
+      "equality": 84,
+      "employment": 118
+    }
+  },
+  "Latvia": {
+    "bio": {
+      "co2": 413,
+      "phosphorus": 726,
+      "nitrogen": 1009,
+      "blue_water": 35,
+      "ehanpp": 172,
+      "eco_footprint": 324,
+      "material_footprint": 227
+    },
+    "soc": {
+      "life_satisfaction": 57,
+      "healthy_life_exp": 99,
+      "nutrition": 159,
+      "income": 105,
+      "energy_access": 106,
+      "education": 105,
+      "social_support": 89,
+      "democratic_quality": 90,
+      "equality": 84,
+      "employment": 60
+    }
+  },
+  "Lebanon": {
+    "bio": {
+      "co2": 414,
+      "phosphorus": 222,
+      "nitrogen": 217,
+      "blue_water": 140,
+      "ehanpp": 65,
+      "eco_footprint": 176,
+      "material_footprint": 260
+    },
+    "soc": {
+      "life_satisfaction": 63,
+      "healthy_life_exp": 114,
+      "nutrition": 148,
+      "energy_access": 106,
+      "education": 77,
+      "social_support": 72,
+      "democratic_quality": 40,
+      "equality": 69,
+      "employment": 99
+    }
+  },
+  "Lesotho": {
+    "bio": {
+      "co2": 66,
+      "phosphorus": 195,
+      "nitrogen": 283,
+      "blue_water": 17,
+      "ehanpp": 107,
+      "eco_footprint": 65,
+      "material_footprint": 62
+    },
+    "soc": {
+      "life_satisfaction": 55,
+      "healthy_life_exp": 12,
+      "nutrition": 90,
+      "sanitation": 20,
+      "income": 29,
+      "energy_access": 16,
+      "education": 47,
+      "social_support": 87,
+      "democratic_quality": 77,
+      "employment": 20
+    }
+  },
+  "Liberia": {
+    "bio": {
+      "co2": 8,
+      "phosphorus": 14,
+      "nitrogen": 24,
+      "blue_water": 12,
+      "ehanpp": 116,
+      "eco_footprint": 65,
+      "material_footprint": 9
+    },
+    "soc": {
+      "nutrition": 55,
+      "sanitation": 10,
+      "energy_access": 4,
+      "education": 38,
+      "employment": 109
+    }
+  },
+  "Libya": {
+    "bio": {
+      "co2": 162,
+      "phosphorus": 30,
+      "nitrogen": 35,
+      "blue_water": 218,
+      "ehanpp": 19,
+      "eco_footprint": 127,
+      "material_footprint": 66
+    },
+    "soc": {
+      "nutrition": 151,
+      "sanitation": 102,
+      "energy_access": 106,
+      "employment": 52
+    }
+  },
+  "Lithuania": {
+    "bio": {
+      "co2": 585,
+      "phosphorus": 814,
+      "nitrogen": 1037,
+      "blue_water": 30,
+      "ehanpp": 178,
+      "eco_footprint": 255,
+      "material_footprint": 396
+    },
+    "soc": {
+      "life_satisfaction": 70,
+      "healthy_life_exp": 99,
+      "nutrition": 176,
+      "income": 105,
+      "energy_access": 106,
+      "education": 108,
+      "social_support": 102,
+      "democratic_quality": 98,
+      "equality": 87,
+      "employment": 63
+    }
+  },
+  "Macedonia": {
+    "bio": {
+      "co2": 376,
+      "phosphorus": 507,
+      "nitrogen": 584,
+      "blue_water": 42,
+      "ehanpp": 107,
+      "eco_footprint": 158,
+      "material_footprint": 189
+    },
+    "soc": {
+      "life_satisfaction": 55,
+      "healthy_life_exp": 100,
+      "nutrition": 122,
+      "sanitation": 96,
+      "energy_access": 106,
+      "social_support": 81,
+      "democratic_quality": 63,
+      "equality": 77,
+      "employment": 0
+    }
+  },
+  "Madagascar": {
+    "bio": {
+      "co2": 12,
+      "phosphorus": 6,
+      "nitrogen": 8,
+      "blue_water": 57,
+      "ehanpp": 204,
+      "eco_footprint": 55,
+      "material_footprint": 12
+    },
+    "soc": {
+      "life_satisfaction": 41,
+      "healthy_life_exp": 62,
+      "nutrition": 39,
+      "sanitation": 5,
+      "income": 0,
+      "energy_access": 10,
+      "education": 28,
+      "social_support": 86,
+      "democratic_quality": 46,
+      "equality": 64,
+      "employment": 109
+    }
+  },
+  "Malawi": {
+    "bio": {
+      "co2": 11,
+      "phosphorus": 8,
+      "nitrogen": 11,
+      "blue_water": 6,
+      "ehanpp": 67,
+      "eco_footprint": 42,
+      "material_footprint": 19
+    },
+    "soc": {
+      "life_satisfaction": 28,
+      "healthy_life_exp": 29,
+      "nutrition": 64,
+      "sanitation": 51,
+      "income": 14,
+      "energy_access": 4,
+      "education": 25,
+      "social_support": 52,
+      "democratic_quality": 67,
+      "equality": 76,
+      "employment": 94
+    }
+  },
+  "Malaysia": {
+    "bio": {
+      "co2": 399,
+      "phosphorus": 219,
+      "nitrogen": 186,
+      "blue_water": 60,
+      "ehanpp": 139,
+      "eco_footprint": 171,
+      "material_footprint": 300
+    },
+    "soc": {
+      "life_satisfaction": 80,
+      "healthy_life_exp": 98,
+      "nutrition": 115,
+      "sanitation": 101,
+      "energy_access": 106,
+      "education": 65,
+      "social_support": 78,
+      "democratic_quality": 67,
+      "equality": 77,
+      "employment": 111
+    }
+  },
+  "Mali": {
+    "bio": {
+      "co2": 8,
+      "phosphorus": 19,
+      "nitrogen": 16,
+      "blue_water": 56,
+      "ehanpp": 122,
+      "eco_footprint": 85,
+      "material_footprint": 70
+    },
+    "soc": {
+      "life_satisfaction": 49,
+      "healthy_life_exp": 28,
+      "nutrition": 113,
+      "sanitation": 14,
+      "energy_access": 22,
+      "education": 33,
+      "social_support": 82,
+      "democratic_quality": 64,
+      "equality": 74,
+      "employment": 92
+    }
+  },
+  "Mauritania": {
+    "bio": {
+      "co2": 42,
+      "phosphorus": 41,
+      "nitrogen": 63,
+      "blue_water": 58,
+      "ehanpp": 143,
+      "eco_footprint": 120,
+      "material_footprint": 36
+    },
+    "soc": {
+      "life_satisfaction": 52,
+      "healthy_life_exp": 49,
+      "nutrition": 109,
+      "sanitation": 20,
+      "energy_access": 17,
+      "education": 10,
+      "social_support": 75,
+      "democratic_quality": 37,
+      "equality": 77,
+      "employment": 1
+    }
+  },
+  "Mauritius": {
+    "bio": {
+      "co2": 390,
+      "phosphorus": 275,
+      "nitrogen": 320,
+      "blue_water": 113,
+      "ehanpp": 71,
+      "eco_footprint": 174,
+      "material_footprint": 313
+    },
+    "soc": {
+      "life_satisfaction": 71,
+      "healthy_life_exp": 98,
+      "nutrition": 135,
+      "sanitation": 95,
+      "income": 106,
+      "energy_access": 106,
+      "education": 94,
+      "social_support": 83,
+      "democratic_quality": 102,
+      "equality": 76,
+      "employment": 93
+    }
+  },
+  "Mexico": {
+    "bio": {
+      "co2": 280,
+      "phosphorus": 251,
+      "nitrogen": 243,
+      "blue_water": 76,
+      "ehanpp": 102,
+      "eco_footprint": 139,
+      "material_footprint": 140
+    },
+    "soc": {
+      "life_satisfaction": 111,
+      "healthy_life_exp": 110,
+      "nutrition": 132,
+      "sanitation": 88,
+      "income": 102,
+      "energy_access": 105,
+      "education": 86,
+      "social_support": 87,
+      "democratic_quality": 63,
+      "equality": 58,
+      "employment": 103
+    }
+  },
+  "Moldova": {
+    "bio": {
+      "co2": 28,
+      "phosphorus": 8,
+      "nitrogen": 17,
+      "blue_water": 66,
+      "ehanpp": 96,
+      "eco_footprint": 98
+    },
+    "soc": {
+      "life_satisfaction": 80,
+      "healthy_life_exp": 84,
+      "nutrition": 114,
+      "sanitation": 90,
+      "income": 106,
+      "energy_access": 106,
+      "education": 91,
+      "social_support": 95,
+      "democratic_quality": 71,
+      "equality": 83,
+      "employment": 97
+    }
+  },
+  "Mongolia": {
+    "bio": {
+      "co2": 241,
+      "phosphorus": 74,
+      "nitrogen": 110,
+      "blue_water": 40,
+      "ehanpp": 165,
+      "eco_footprint": 263,
+      "material_footprint": 130
+    },
+    "soc": {
+      "life_satisfaction": 59,
+      "healthy_life_exp": 82,
+      "nutrition": 76,
+      "sanitation": 51,
+      "income": 106,
+      "energy_access": 94,
+      "social_support": 108,
+      "democratic_quality": 83,
+      "equality": 88,
+      "employment": 105
+    }
+  },
+  "Morocco": {
+    "bio": {
+      "co2": 118,
+      "phosphorus": 60,
+      "nitrogen": 45,
+      "blue_water": 91,
+      "ehanpp": 60,
+      "eco_footprint": 88,
+      "material_footprint": 55
+    },
+    "soc": {
+      "life_satisfaction": 60,
+      "healthy_life_exp": 83,
+      "nutrition": 163,
+      "sanitation": 70,
+      "energy_access": 106,
+      "education": 64,
+      "social_support": 89,
+      "democratic_quality": 54,
+      "equality": 72,
+      "employment": 89
+    }
+  },
+  "Mozambique": {
+    "bio": {
+      "co2": 14,
+      "phosphorus": 7,
+      "nitrogen": 9,
+      "blue_water": 6,
+      "ehanpp": 104,
+      "eco_footprint": 49,
+      "material_footprint": 23
+    },
+    "soc": {
+      "life_satisfaction": 57,
+      "healthy_life_exp": 14,
+      "nutrition": 57,
+      "sanitation": 11,
+      "energy_access": 16,
+      "education": 13,
+      "social_support": 86,
+      "democratic_quality": 75,
+      "equality": 65,
+      "employment": 91
+    }
+  },
+  "Myanmar": {
+    "bio": {
+      "co2": 15,
+      "phosphorus": 12,
+      "nitrogen": 15,
+      "blue_water": 19,
+      "ehanpp": 107,
+      "eco_footprint": 86,
+      "material_footprint": 13
+    },
+    "soc": {
+      "nutrition": 83,
+      "sanitation": 79,
+      "energy_access": 52,
+      "employment": 110
+    }
+  },
+  "Namibia": {
+    "bio": {
+      "co2": 245,
+      "phosphorus": 70,
+      "nitrogen": 81,
+      "blue_water": 36,
+      "ehanpp": 148,
+      "eco_footprint": 131,
+      "material_footprint": 98
+    },
+    "soc": {
+      "nutrition": 39,
+      "sanitation": 27,
+      "energy_access": 46,
+      "equality": 0,
+      "employment": 46
+    }
+  },
+  "Nepal": {
+    "bio": {
+      "co2": 17,
+      "phosphorus": 67,
+      "nitrogen": 90,
+      "blue_water": 55,
+      "ehanpp": 45,
+      "eco_footprint": 51,
+      "material_footprint": 28
+    },
+    "soc": {
+      "life_satisfaction": 25,
+      "healthy_life_exp": 76,
+      "nutrition": 88,
+      "sanitation": 30,
+      "income": 87,
+      "energy_access": 79,
+      "education": 58,
+      "social_support": 73,
+      "democratic_quality": 40,
+      "equality": 62,
+      "employment": 113
+    }
+  },
+  "Netherlands": {
+    "bio": {
+      "co2": 822,
+      "phosphorus": 454,
+      "nitrogen": 598,
+      "blue_water": 59,
+      "ehanpp": 108,
+      "eco_footprint": 259,
+      "material_footprint": 362
+    },
+    "soc": {
+      "life_satisfaction": 130,
+      "healthy_life_exp": 123,
+      "nutrition": 145,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 142,
+      "social_support": 106,
+      "democratic_quality": 118,
+      "equality": 109,
+      "employment": 106
+    }
+  },
+  "New Zealand": {
+    "bio": {
+      "co2": 546,
+      "phosphorus": 1736,
+      "nitrogen": 539,
+      "blue_water": 64,
+      "ehanpp": 160,
+      "eco_footprint": 297,
+      "material_footprint": 352
+    },
+    "soc": {
+      "life_satisfaction": 119,
+      "healthy_life_exp": 123,
+      "nutrition": 147,
+      "income": 107,
+      "energy_access": 106,
+      "education": 130,
+      "social_support": 109,
+      "democratic_quality": 124,
+      "equality": 93,
+      "employment": 98
+    }
+  },
+  "Nicaragua": {
+    "bio": {
+      "co2": 63,
+      "phosphorus": 44,
+      "nitrogen": 48,
+      "blue_water": 21,
+      "ehanpp": 121,
+      "eco_footprint": 78,
+      "material_footprint": 72
+    },
+    "soc": {
+      "life_satisfaction": 69,
+      "healthy_life_exp": 100,
+      "nutrition": 86,
+      "sanitation": 50,
+      "energy_access": 81,
+      "social_support": 83,
+      "democratic_quality": 59,
+      "equality": 57,
+      "employment": 93
+    }
+  },
+  "Niger": {
+    "bio": {
+      "co2": 7,
+      "phosphorus": 15,
+      "nitrogen": 21,
+      "blue_water": 29,
+      "ehanpp": 270,
+      "eco_footprint": 98,
+      "material_footprint": 53
+    },
+    "soc": {
+      "life_satisfaction": 45,
+      "healthy_life_exp": 39,
+      "nutrition": 85,
+      "sanitation": 0,
+      "income": 41,
+      "energy_access": 9,
+      "education": 0,
+      "social_support": 86,
+      "democratic_quality": 52,
+      "equality": 65,
+      "employment": 104
+    }
+  },
+  "Nigeria": {
+    "bio": {
+      "co2": 30,
+      "phosphorus": 7,
+      "nitrogen": 8,
+      "blue_water": 9,
+      "ehanpp": 96,
+      "eco_footprint": 60,
+      "material_footprint": 31
+    },
+    "soc": {
+      "nutrition": 102,
+      "sanitation": 25,
+      "energy_access": 56,
+      "education": 38,
+      "equality": 65,
+      "employment": 94
+    }
+  },
+  "Norway": {
+    "bio": {
+      "co2": 1066,
+      "phosphorus": 848,
+      "nitrogen": 1213,
+      "blue_water": 53,
+      "ehanpp": 210,
+      "eco_footprint": 277,
+      "material_footprint": 544
+    },
+    "soc": {
+      "nutrition": 178,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 122,
+      "equality": 112,
+      "employment": 111
+    }
+  },
+  "Oman": {
+    "bio": {
+      "co2": 772,
+      "phosphorus": 139,
+      "nitrogen": 174,
+      "ehanpp": 48,
+      "eco_footprint": 203,
+      "material_footprint": 205
+    },
+    "soc": {
+      "life_satisfaction": 110,
+      "healthy_life_exp": 105,
+      "sanitation": 102,
+      "income": 107,
+      "energy_access": 103,
+      "education": 109,
+      "democratic_quality": 63,
+      "employment": 92
+    }
+  },
+  "Pakistan": {
+    "bio": {
+      "co2": 61,
+      "phosphorus": 74,
+      "nitrogen": 151,
+      "blue_water": 172,
+      "ehanpp": 24,
+      "eco_footprint": 40,
+      "material_footprint": 53
+    },
+    "soc": {
+      "life_satisfaction": 65,
+      "healthy_life_exp": 71,
+      "nutrition": 73,
+      "sanitation": 44,
+      "income": 96,
+      "energy_access": 98,
+      "education": 28,
+      "social_support": 35,
+      "democratic_quality": 11,
+      "equality": 96,
+      "employment": 104
+    }
+  },
+  "Panama": {
+    "bio": {
+      "co2": 227,
+      "phosphorus": 170,
+      "nitrogen": 159,
+      "blue_water": 27,
+      "ehanpp": 319,
+      "eco_footprint": 152,
+      "material_footprint": 173
+    },
+    "soc": {
+      "life_satisfaction": 121,
+      "healthy_life_exp": 108,
+      "nutrition": 94,
+      "sanitation": 72,
+      "income": 101,
+      "energy_access": 95,
+      "education": 70,
+      "social_support": 96,
+      "democratic_quality": 81,
+      "equality": 49,
+      "employment": 106
+    }
+  },
+  "Papua New Guinea": {
+    "bio": {
+      "co2": 34,
+      "phosphorus": 23,
+      "nitrogen": 26,
+      "ehanpp": 146,
+      "eco_footprint": 105,
+      "material_footprint": 41
+    },
+    "soc": {
+      "sanitation": 11,
+      "energy_access": 13,
+      "equality": 43,
+      "employment": 114
+    }
+  },
+  "Paraguay": {
+    "bio": {
+      "co2": 101,
+      "phosphorus": 128,
+      "nitrogen": 81,
+      "blue_water": 21,
+      "ehanpp": 190,
+      "eco_footprint": 242,
+      "material_footprint": 172
+    },
+    "soc": {
+      "life_satisfaction": 77,
+      "healthy_life_exp": 91,
+      "nutrition": 100,
+      "income": 100,
+      "energy_access": 104,
+      "education": 69,
+      "social_support": 95,
+      "democratic_quality": 60,
+      "equality": 52,
+      "employment": 107
+    }
+  },
+  "Peru": {
+    "bio": {
+      "co2": 140,
+      "phosphorus": 63,
+      "nitrogen": 73,
+      "blue_water": 64,
+      "ehanpp": 129,
+      "eco_footprint": 120,
+      "material_footprint": 141
+    },
+    "soc": {
+      "life_satisfaction": 83,
+      "healthy_life_exp": 98,
+      "nutrition": 92,
+      "sanitation": 73,
+      "income": 101,
+      "energy_access": 96,
+      "education": 100,
+      "social_support": 76,
+      "democratic_quality": 62,
+      "equality": 47,
+      "employment": 108
+    }
+  },
+  "Philippines": {
+    "bio": {
+      "co2": 68,
+      "phosphorus": 36,
+      "nitrogen": 38,
+      "blue_water": 31,
+      "ehanpp": 68,
+      "eco_footprint": 58,
+      "material_footprint": 61
+    },
+    "soc": {
+      "life_satisfaction": 58,
+      "healthy_life_exp": 79,
+      "nutrition": 91,
+      "sanitation": 76,
+      "income": 89,
+      "energy_access": 92,
+      "social_support": 81,
+      "democratic_quality": 49,
+      "equality": 64,
+      "employment": 96
+    }
+  },
+  "Poland": {
+    "bio": {
+      "co2": 575,
+      "phosphorus": 599,
+      "nitrogen": 835,
+      "blue_water": 28,
+      "ehanpp": 101,
+      "eco_footprint": 223,
+      "material_footprint": 274
+    },
+    "soc": {
+      "life_satisfaction": 76,
+      "healthy_life_exp": 107,
+      "nutrition": 178,
+      "income": 106,
+      "energy_access": 106,
+      "education": 102,
+      "social_support": 101,
+      "democratic_quality": 108,
+      "equality": 97,
+      "employment": 86
+    }
+  },
+  "Portugal": {
+    "bio": {
+      "co2": 475,
+      "phosphorus": 550,
+      "nitrogen": 542,
+      "blue_water": 170,
+      "ehanpp": 110,
+      "eco_footprint": 194,
+      "material_footprint": 358
+    },
+    "soc": {
+      "life_satisfaction": 64,
+      "healthy_life_exp": 121,
+      "nutrition": 175,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 115,
+      "social_support": 93,
+      "democratic_quality": 104,
+      "equality": 83,
+      "employment": 74
+    }
+  },
+  "Qatar": {
+    "bio": {
+      "co2": 2075,
+      "phosphorus": 269,
+      "nitrogen": 316,
+      "ehanpp": 64,
+      "eco_footprint": 405,
+      "material_footprint": 670
+    },
+    "soc": {
+      "life_satisfaction": 103,
+      "healthy_life_exp": 109,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 103,
+      "social_support": 93,
+      "democratic_quality": 77,
+      "employment": 121
+    }
+  },
+  "Romania": {
+    "bio": {
+      "co2": 356,
+      "phosphorus": 213,
+      "nitrogen": 447,
+      "blue_water": 40,
+      "ehanpp": 110,
+      "eco_footprint": 145,
+      "material_footprint": 245
+    },
+    "soc": {
+      "life_satisfaction": 59,
+      "healthy_life_exp": 106,
+      "nutrition": 166,
+      "income": 107,
+      "energy_access": 106,
+      "education": 107,
+      "social_support": 75,
+      "democratic_quality": 82,
+      "equality": 97,
+      "employment": 94
+    }
+  },
+  "Russia": {
+    "bio": {
+      "co2": 652,
+      "phosphorus": 309,
+      "nitrogen": 483,
+      "blue_water": 47,
+      "ehanpp": 149,
+      "eco_footprint": 259,
+      "material_footprint": 111
+    },
+    "soc": {
+      "life_satisfaction": 69,
+      "healthy_life_exp": 87,
+      "nutrition": 166,
+      "sanitation": 71,
+      "income": 106,
+      "energy_access": 106,
+      "education": 96,
+      "social_support": 97,
+      "democratic_quality": 42,
+      "equality": 73,
+      "employment": 98
+    }
+  },
+  "Rwanda": {
+    "bio": {
+      "co2": 12,
+      "phosphorus": 32,
+      "nitrogen": 55,
+      "blue_water": 3,
+      "ehanpp": 78,
+      "eco_footprint": 48,
+      "material_footprint": 27
+    },
+    "soc": {
+      "life_satisfaction": 33,
+      "healthy_life_exp": 56,
+      "nutrition": 45,
+      "sanitation": 61,
+      "income": 28,
+      "energy_access": 13,
+      "education": 27,
+      "social_support": 45,
+      "democratic_quality": 49,
+      "equality": 55,
+      "employment": 121
+    }
+  },
+  "Saudi Arabia": {
+    "bio": {
+      "co2": 1038,
+      "phosphorus": 384,
+      "nitrogen": 297,
+      "blue_water": 163,
+      "ehanpp": 26,
+      "eco_footprint": 233,
+      "material_footprint": 195
+    },
+    "soc": {
+      "life_satisfaction": 106,
+      "healthy_life_exp": 98,
+      "nutrition": 142,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 103,
+      "social_support": 88,
+      "democratic_quality": 34,
+      "employment": 101
+    }
+  },
+  "Senegal": {
+    "bio": {
+      "co2": 39,
+      "phosphorus": 17,
+      "nitrogen": 19,
+      "blue_water": 32,
+      "ehanpp": 81,
+      "eco_footprint": 59,
+      "material_footprint": 49
+    },
+    "soc": {
+      "life_satisfaction": 25,
+      "healthy_life_exp": 60,
+      "nutrition": 73,
+      "sanitation": 49,
+      "income": 57,
+      "energy_access": 57,
+      "education": 32,
+      "social_support": 50,
+      "democratic_quality": 63,
+      "equality": 83,
+      "employment": 83
+    }
+  },
+  "Serbia": {
+    "bio": {
+      "co2": 523,
+      "ehanpp": 133,
+      "eco_footprint": 147,
+      "material_footprint": 356
+    },
+    "soc": {
+      "life_satisfaction": 53,
+      "healthy_life_exp": 99,
+      "nutrition": 102,
+      "sanitation": 103,
+      "income": 106,
+      "energy_access": 106,
+      "education": 98,
+      "social_support": 79,
+      "democratic_quality": 72,
+      "equality": 93,
+      "employment": 33
+    }
+  },
+  "Sierra Leone": {
+    "bio": {
+      "co2": 21,
+      "phosphorus": 19,
+      "nitrogen": 31,
+      "blue_water": 12,
+      "ehanpp": 111,
+      "eco_footprint": 67,
+      "material_footprint": 31
+    },
+    "soc": {
+      "life_satisfaction": 44,
+      "healthy_life_exp": 0,
+      "nutrition": 63,
+      "sanitation": 4,
+      "income": 38,
+      "energy_access": 9,
+      "education": 37,
+      "social_support": 80,
+      "democratic_quality": 66,
+      "equality": 63,
+      "employment": 110
+    }
+  },
+  "Singapore": {
+    "bio": {
+      "co2": 1919,
+      "phosphorus": 733,
+      "nitrogen": 684,
+      "ehanpp": 133,
+      "eco_footprint": 345,
+      "material_footprint": 975
+    },
+    "soc": {
+      "life_satisfaction": 102,
+      "healthy_life_exp": 137,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "social_support": 101,
+      "democratic_quality": 92,
+      "equality": 71,
+      "employment": 112
+    }
+  },
+  "Slovak Republic": {
+    "bio": {
+      "co2": 747,
+      "phosphorus": 524,
+      "nitrogen": 905,
+      "blue_water": 35,
+      "ehanpp": 90,
+      "eco_footprint": 220,
+      "material_footprint": 468
+    },
+    "soc": {
+      "life_satisfaction": 84,
+      "healthy_life_exp": 107,
+      "nutrition": 120,
+      "sanitation": 106,
+      "income": 106,
+      "energy_access": 106,
+      "education": 98,
+      "social_support": 103,
+      "democratic_quality": 106,
+      "equality": 109,
+      "employment": 70
+    }
+  },
+  "Slovenia": {
+    "bio": {
+      "co2": 659,
+      "phosphorus": 422,
+      "nitrogen": 509,
+      "blue_water": 45,
+      "ehanpp": 159,
+      "eco_footprint": 263,
+      "material_footprint": 358
+    },
+    "soc": {
+      "life_satisfaction": 87,
+      "healthy_life_exp": 119,
+      "nutrition": 147,
+      "sanitation": 106,
+      "income": 106,
+      "energy_access": 106,
+      "education": 104,
+      "social_support": 105,
+      "democratic_quality": 107,
+      "equality": 119,
+      "employment": 91
+    }
+  },
+  "Somalia": {
+    "bio": {
+      "co2": 5,
+      "phosphorus": 3,
+      "nitrogen": 5,
+      "ehanpp": 134,
+      "eco_footprint": 68,
+      "material_footprint": 50
+    },
+    "soc": {
+      "nutrition": 0,
+      "sanitation": 16,
+      "energy_access": 30,
+      "equality": 99,
+      "employment": 96
+    }
+  },
+  "South Africa": {
+    "bio": {
+      "co2": 470,
+      "phosphorus": 159,
+      "nitrogen": 135,
+      "blue_water": 41,
+      "ehanpp": 90,
+      "eco_footprint": 143,
+      "material_footprint": 143
+    },
+    "soc": {
+      "life_satisfaction": 56,
+      "healthy_life_exp": 36,
+      "nutrition": 131,
+      "sanitation": 75,
+      "income": 85,
+      "energy_access": 89,
+      "education": 95,
+      "social_support": 93,
+      "democratic_quality": 83,
+      "equality": 28,
+      "employment": 26
+    }
+  },
+  "Spain": {
+    "bio": {
+      "co2": 566,
+      "phosphorus": 680,
+      "nitrogen": 665,
+      "blue_water": 135,
+      "ehanpp": 106,
+      "eco_footprint": 198,
+      "material_footprint": 357
+    },
+    "soc": {
+      "life_satisfaction": 101,
+      "healthy_life_exp": 131,
+      "nutrition": 148,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 142,
+      "social_support": 107,
+      "democratic_quality": 92,
+      "equality": 96,
+      "employment": 38
+    }
+  },
+  "Sri Lanka": {
+    "bio": {
+      "co2": 65,
+      "phosphorus": 17,
+      "nitrogen": 21,
+      "blue_water": 70,
+      "ehanpp": 56,
+      "eco_footprint": 68,
+      "material_footprint": 45
+    },
+    "soc": {
+      "life_satisfaction": 35,
+      "healthy_life_exp": 96,
+      "nutrition": 79,
+      "sanitation": 95,
+      "income": 104,
+      "energy_access": 93,
+      "education": 105,
+      "social_support": 90,
+      "democratic_quality": 52,
+      "equality": 70,
+      "employment": 107
+    }
+  },
+  "Sudan": {
+    "bio": {
+      "blue_water": 95,
+      "ehanpp": 177
+    },
+    "soc": {
+      "life_satisfaction": 39,
+      "healthy_life_exp": 51,
+      "nutrition": 65,
+      "sanitation": 16,
+      "energy_access": 30,
+      "education": 27,
+      "social_support": 86,
+      "democratic_quality": 0,
+      "employment": 65
+    }
+  },
+  "Swaziland": {
+    "bio": {
+      "co2": 204,
+      "phosphorus": 124,
+      "nitrogen": 130,
+      "blue_water": 83,
+      "ehanpp": 100,
+      "eco_footprint": 117,
+      "material_footprint": 124
+    },
+    "soc": {
+      "life_satisfaction": 54,
+      "healthy_life_exp": 12,
+      "nutrition": 58,
+      "sanitation": 56,
+      "energy_access": 40,
+      "education": 56,
+      "social_support": 89,
+      "democratic_quality": 44,
+      "equality": 53,
+      "employment": 34
+    }
+  },
+  "Sweden": {
+    "bio": {
+      "co2": 635,
+      "phosphorus": 635,
+      "nitrogen": 1068,
+      "blue_water": 36,
+      "ehanpp": 179,
+      "eco_footprint": 378,
+      "material_footprint": 346
+    },
+    "soc": {
+      "life_satisfaction": 125,
+      "healthy_life_exp": 126,
+      "nutrition": 146,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 102,
+      "social_support": 103,
+      "democratic_quality": 122,
+      "equality": 117,
+      "employment": 93
+    }
+  },
+  "Switzerland": {
+    "bio": {
+      "co2": 819,
+      "phosphorus": 676,
+      "nitrogen": 812,
+      "blue_water": 50,
+      "ehanpp": 117,
+      "eco_footprint": 284,
+      "material_footprint": 436
+    },
+    "soc": {
+      "nutrition": 178,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 101,
+      "equality": 98,
+      "employment": 108
+    }
+  },
+  "Syrian Arab Republic": {
+    "bio": {
+      "co2": 171,
+      "phosphorus": 127,
+      "nitrogen": 75,
+      "blue_water": 143,
+      "ehanpp": 42,
+      "eco_footprint": 85,
+      "material_footprint": 59
+    },
+    "soc": {
+      "life_satisfaction": 31,
+      "healthy_life_exp": 100,
+      "nutrition": 140,
+      "sanitation": 100,
+      "energy_access": 101,
+      "education": 76,
+      "social_support": 46,
+      "democratic_quality": 9,
+      "equality": 83,
+      "employment": 78
+    }
+  },
+  "Tajikistan": {
+    "bio": {
+      "co2": 54,
+      "phosphorus": 28,
+      "nitrogen": 53,
+      "blue_water": 181,
+      "ehanpp": 38,
+      "eco_footprint": 47,
+      "material_footprint": 35
+    },
+    "soc": {
+      "life_satisfaction": 37,
+      "healthy_life_exp": 78,
+      "nutrition": 40,
+      "sanitation": 100,
+      "energy_access": 106,
+      "education": 88,
+      "social_support": 75,
+      "democratic_quality": 34,
+      "equality": 89,
+      "employment": 79
+    }
+  },
+  "Tanzania": {
+    "bio": {
+      "co2": 18,
+      "phosphorus": 4,
+      "nitrogen": 5,
+      "blue_water": 12,
+      "ehanpp": 114,
+      "eco_footprint": 69,
+      "material_footprint": 21
+    },
+    "soc": {
+      "life_satisfaction": 32,
+      "healthy_life_exp": 48,
+      "nutrition": 47,
+      "sanitation": 3,
+      "income": 46,
+      "energy_access": 10,
+      "social_support": 97,
+      "democratic_quality": 69,
+      "equality": 80,
+      "employment": 110
+    }
+  },
+  "Thailand": {
+    "bio": {
+      "co2": 285,
+      "phosphorus": 140,
+      "nitrogen": 127,
+      "blue_water": 75,
+      "ehanpp": 99,
+      "eco_footprint": 112,
+      "material_footprint": 109
+    },
+    "soc": {
+      "life_satisfaction": 105,
+      "healthy_life_exp": 100,
+      "nutrition": 106,
+      "sanitation": 98,
+      "income": 106,
+      "energy_access": 106,
+      "education": 91,
+      "social_support": 97,
+      "democratic_quality": 47,
+      "equality": 68,
+      "employment": 121
+    }
+  },
+  "Timor-Leste": {
+    "bio": {
+      "blue_water": 20,
+      "ehanpp": 158,
+      "eco_footprint": 20
+    },
+    "soc": {
+      "nutrition": 39,
+      "sanitation": 34,
+      "energy_access": 40,
+      "education": 70,
+      "equality": 86,
+      "employment": 109
+    }
+  },
+  "Togo": {
+    "bio": {
+      "co2": 23,
+      "phosphorus": 15,
+      "nitrogen": 21,
+      "blue_water": 7,
+      "ehanpp": 90,
+      "eco_footprint": 57,
+      "material_footprint": 30
+    },
+    "soc": {
+      "life_satisfaction": 0,
+      "healthy_life_exp": 37,
+      "nutrition": 67,
+      "sanitation": 2,
+      "income": 36,
+      "energy_access": 28,
+      "education": 50,
+      "social_support": 0,
+      "democratic_quality": 54,
+      "equality": 88,
+      "employment": 96
+    }
+  },
+  "Trinidad and Tobago": {
+    "bio": {
+      "co2": 789,
+      "phosphorus": 175,
+      "nitrogen": 182,
+      "blue_water": 51,
+      "ehanpp": 108,
+      "eco_footprint": 347,
+      "material_footprint": 171
+    },
+    "soc": {
+      "life_satisfaction": 101,
+      "healthy_life_exp": 84,
+      "nutrition": 119,
+      "sanitation": 97,
+      "income": 107,
+      "energy_access": 105,
+      "social_support": 94,
+      "democratic_quality": 84,
+      "equality": 72,
+      "employment": 105
+    }
+  },
+  "Tunisia": {
+    "bio": {
+      "co2": 170,
+      "phosphorus": 114,
+      "nitrogen": 96,
+      "blue_water": 114,
+      "ehanpp": 67,
+      "eco_footprint": 102,
+      "material_footprint": 124
+    },
+    "soc": {
+      "life_satisfaction": 54,
+      "healthy_life_exp": 100,
+      "nutrition": 166,
+      "sanitation": 94,
+      "income": 104,
+      "energy_access": 106,
+      "education": 96,
+      "social_support": 69,
+      "democratic_quality": 60,
+      "equality": 84,
+      "employment": 52
+    }
+  },
+  "Turkey": {
+    "bio": {
+      "co2": 408,
+      "phosphorus": 409,
+      "nitrogen": 442,
+      "blue_water": 111,
+      "ehanpp": 69,
+      "eco_footprint": 155,
+      "material_footprint": 161
+    },
+    "soc": {
+      "life_satisfaction": 66,
+      "healthy_life_exp": 99,
+      "nutrition": 198,
+      "sanitation": 95,
+      "income": 106,
+      "energy_access": 106,
+      "education": 92,
+      "social_support": 65,
+      "democratic_quality": 54,
+      "equality": 72,
+      "employment": 85
+    }
+  },
+  "Turkmenistan": {
+    "bio": {
+      "co2": 696,
+      "phosphorus": 124,
+      "nitrogen": 257,
+      "blue_water": 316,
+      "ehanpp": 113,
+      "eco_footprint": 243,
+      "material_footprint": 208
+    },
+    "soc": {
+      "life_satisfaction": 80,
+      "healthy_life_exp": 74,
+      "nutrition": 118,
+      "sanitation": 105,
+      "energy_access": 106,
+      "social_support": 111,
+      "democratic_quality": 40,
+      "equality": 68,
+      "employment": 81
+    }
+  },
+  "Uganda": {
+    "bio": {
+      "co2": 15,
+      "phosphorus": 4,
+      "nitrogen": 5,
+      "blue_water": 4,
+      "ehanpp": 135,
+      "eco_footprint": 72,
+      "material_footprint": 33
+    },
+    "soc": {
+      "life_satisfaction": 53,
+      "healthy_life_exp": 43,
+      "nutrition": 58,
+      "sanitation": 30,
+      "income": 63,
+      "energy_access": 13,
+      "social_support": 97,
+      "democratic_quality": 47,
+      "equality": 74,
+      "employment": 107
+    }
+  },
+  "Ukraine": {
+    "bio": {
+      "co2": 354,
+      "phosphorus": 153,
+      "nitrogen": 329,
+      "blue_water": 29,
+      "ehanpp": 96,
+      "eco_footprint": 163,
+      "material_footprint": 122
+    },
+    "soc": {
+      "life_satisfaction": 60,
+      "healthy_life_exp": 92,
+      "nutrition": 144,
+      "sanitation": 99,
+      "income": 107,
+      "energy_access": 106,
+      "education": 98,
+      "social_support": 93,
+      "democratic_quality": 69,
+      "equality": 101,
+      "employment": 93
+    }
+  },
+  "United Arab Emirates": {
+    "bio": {
+      "co2": 1451,
+      "phosphorus": 294,
+      "nitrogen": 319,
+      "blue_water": 102,
+      "ehanpp": 65,
+      "eco_footprint": 473,
+      "material_footprint": 763
+    },
+    "soc": {
+      "life_satisfaction": 117,
+      "healthy_life_exp": 110,
+      "nutrition": 151,
+      "sanitation": 103,
+      "income": 107,
+      "energy_access": 103,
+      "social_support": 97,
+      "democratic_quality": 73,
+      "employment": 107
+    }
+  },
+  "United Kingdom": {
+    "bio": {
+      "co2": 748,
+      "phosphorus": 586,
+      "nitrogen": 819,
+      "blue_water": 42,
+      "ehanpp": 92,
+      "eco_footprint": 241,
+      "material_footprint": 339
+    },
+    "soc": {
+      "life_satisfaction": 110,
+      "healthy_life_exp": 122,
+      "nutrition": 171,
+      "sanitation": 106,
+      "income": 107,
+      "energy_access": 106,
+      "education": 97,
+      "social_support": 108,
+      "democratic_quality": 101,
+      "equality": 87,
+      "employment": 93
+    }
+  },
+  "United States": {
+    "bio": {
+      "co2": 1314,
+      "phosphorus": 782,
+      "nitrogen": 663,
+      "blue_water": 106,
+      "ehanpp": 142,
+      "eco_footprint": 393,
+      "material_footprint": 378
+    },
+    "soc": {
+      "life_satisfaction": 117,
+      "healthy_life_exp": 117,
+      "nutrition": 194,
+      "sanitation": 105,
+      "income": 107,
+      "energy_access": 106,
+      "education": 100,
+      "social_support": 104,
+      "democratic_quality": 102,
+      "equality": 81,
+      "employment": 88
+    }
+  },
+  "Uruguay": {
+    "bio": {
+      "co2": 297,
+      "phosphorus": 688,
+      "nitrogen": 301,
+      "blue_water": 29,
+      "ehanpp": 204,
+      "eco_footprint": 238,
+      "material_footprint": 268
+    },
+    "soc": {
+      "life_satisfaction": 102,
+      "healthy_life_exp": 110,
+      "nutrition": 124,
+      "sanitation": 105,
+      "income": 106,
+      "energy_access": 105,
+      "social_support": 99,
+      "democratic_quality": 108,
+      "equality": 63,
+      "employment": 99
+    }
+  },
+  "Uzbekistan": {
+    "bio": {
+      "co2": 272,
+      "phosphorus": 142,
+      "nitrogen": 351,
+      "blue_water": 148,
+      "ehanpp": 55,
+      "eco_footprint": 109,
+      "material_footprint": 70
+    },
+    "soc": {
+      "life_satisfaction": 79,
+      "healthy_life_exp": 82,
+      "nutrition": 98,
+      "sanitation": 106,
+      "energy_access": 106,
+      "education": 101,
+      "social_support": 104,
+      "democratic_quality": 28,
+      "equality": 82,
+      "employment": 80
+    }
+  },
+  "Venezuela": {
+    "bio": {
+      "co2": 304,
+      "phosphorus": 131,
+      "nitrogen": 121,
+      "blue_water": 35,
+      "ehanpp": 172,
+      "eco_footprint": 152,
+      "material_footprint": 157
+    },
+    "soc": {
+      "life_satisfaction": 102,
+      "healthy_life_exp": 98,
+      "nutrition": 118,
+      "income": 107,
+      "energy_access": 106,
+      "education": 84,
+      "social_support": 105,
+      "democratic_quality": 38,
+      "equality": 69,
+      "employment": 91
+    }
+  },
+  "Vietnam": {
+    "bio": {
+      "co2": 135,
+      "phosphorus": 84,
+      "nitrogen": 88,
+      "blue_water": 38,
+      "ehanpp": 73,
+      "eco_footprint": 79,
+      "material_footprint": 92
+    },
+    "soc": {
+      "life_satisfaction": 79,
+      "healthy_life_exp": 102,
+      "nutrition": 100,
+      "sanitation": 76,
+      "income": 101,
+      "energy_access": 105,
+      "social_support": 100,
+      "democratic_quality": 52,
+      "equality": 77,
+      "employment": 116
+    }
+  },
+  "West Bank and Gaza": {
+    "bio": {
+      "co2": 49,
+      "phosphorus": 63,
+      "nitrogen": 90,
+      "material_footprint": 61
+    },
+    "soc": {
+      "nutrition": 33,
+      "sanitation": 99,
+      "energy_access": 103,
+      "education": 86,
+      "employment": 41
+    }
+  },
+  "Yemen": {
+    "bio": {
+      "co2": 56,
+      "phosphorus": 10,
+      "nitrogen": 18,
+      "blue_water": 83,
+      "ehanpp": 15,
+      "eco_footprint": 46,
+      "material_footprint": 30
+    },
+    "soc": {
+      "life_satisfaction": 23,
+      "healthy_life_exp": 55,
+      "nutrition": 49,
+      "sanitation": 51,
+      "energy_access": 47,
+      "education": 39,
+      "social_support": 60,
+      "democratic_quality": 8,
+      "equality": 77,
+      "employment": 54
+    }
+  },
+  "Zambia": {
+    "bio": {
+      "co2": 26,
+      "phosphorus": 13,
+      "nitrogen": 19,
+      "blue_water": 14,
+      "ehanpp": 119,
+      "eco_footprint": 49,
+      "material_footprint": 58
+    },
+    "soc": {
+      "life_satisfaction": 58,
+      "healthy_life_exp": 36,
+      "nutrition": 24,
+      "sanitation": 38,
+      "income": 23,
+      "energy_access": 18,
+      "social_support": 94,
+      "democratic_quality": 78,
+      "equality": 40,
+      "employment": 72
+    }
+  },
+  "Zimbabwe": {
+    "bio": {
+      "blue_water": 31,
+      "ehanpp": 104,
+      "eco_footprint": 68
+    },
+    "soc": {
+      "life_satisfaction": 54,
+      "healthy_life_exp": 34,
+      "nutrition": 51,
+      "sanitation": 36,
+      "energy_access": 38,
+      "social_support": 94,
+      "democratic_quality": 32,
+      "equality": 38,
+      "employment": 102
+    }
+  }
+}
