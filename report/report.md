@@ -1,6 +1,6 @@
 # A Doughnut-Economics Constraint Model of Floor and Ceiling Trade-offs: An Answer Set Programming Approach
 
-**Course:** Computational Ethics 2026 — Prof. Giuseppe Pisano (discussion: Prof. Lagioia)  
+**Course:** Computational Ethics 2026 — Prof. Lagioia, Prof. Giuseppe Pisano  
 **Author:** Thomas Gualandi  
 **Track:** System/code
 
