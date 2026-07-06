@@ -15,6 +15,9 @@
 
 #include "levers.lp".
 
+% Same choice and conflict structure as doughnut.lp - deliberately, so this
+% program explores exactly the same search space, just without the two
+% integrity constraints that made infeasible countries UNSAT there.
 { select(L) } :- lever(L).
 :- select(L1), select(L2), conflicts(L1, L2).
 
@@ -29,9 +32,18 @@ soc_effect(Dim, Sum) :-
 new_bio_value(C, Dim, V + E) :- target(C), bio_value(C, Dim, V), bio_effect(Dim, E).
 new_soc_value(C, Dim, V + E) :- target(C), soc_value(C, Dim, V), soc_effect(Dim, E).
 
+% Instead of an integrity constraint, a violation is just recorded as a
+% number: how far over the ceiling / under the floor the country still is
+% after the chosen levers. overshoot/deficit are undefined (not generated)
+% for dimensions that are already fine, so they only ever add positive
+% penalty for real violations.
 overshoot(Dim, V - 100) :- new_bio_value(_, Dim, V), V > 100.
 deficit(Dim, 100 - V)   :- new_soc_value(_, Dim, V), V < 100.
 
+% Two #minimize statements with no explicit priority level are optimized
+% together at the same level, i.e. clingo sums their weights - so this
+% jointly minimizes (total overshoot + total deficit) as one objective,
+% not overshoot first and deficit second.
 #minimize { P,Dim : overshoot(Dim, P) }.
 #minimize { P,Dim : deficit(Dim, P) }.
 

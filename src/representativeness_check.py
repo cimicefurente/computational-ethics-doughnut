@@ -26,6 +26,9 @@ SOC_DIMS = ["life_satisfaction", "healthy_life_exp", "nutrition", "sanitation",
 
 
 def percentile_stats(values):
+    # A simple index-based percentile (not the interpolated kind
+    # numpy/scipy use) - accurate enough here since we only need a rough
+    # "is this lever effect big or small" comparison, not precise stats.
     vals = sorted(values)
     n = len(vals)
     return {
@@ -39,6 +42,9 @@ def percentile_stats(values):
 
 def load_lever_effects():
     """Parse affects_bio/affects_soc facts directly out of levers.lp."""
+    # Reading the .lp file's text instead of re-declaring the same numbers
+    # in Python keeps levers.lp the single source of truth: if a lever's
+    # effect changes, this check picks it up automatically next run.
     text = (SRC / "levers.lp").read_text()
     effects = []  # (lever, kind, dim, delta)
     pattern = re.compile(r"affects_(bio|soc)\(\s*(\w+)\s*,\s*(\w+)\s*,\s*(-?\d+)\s*\)\.")
@@ -64,10 +70,14 @@ def main():
         stats = dim_stats[dim]
         pct_iqr = round(100 * abs(delta) / stats["iqr"]) if stats["iqr"] else None
         pct_p1090 = round(100 * abs(delta) / stats["p10_90"]) if stats["p10_90"] else None
+        # 45% of the IQR is not a standard statistical cutoff - it's a
+        # deliberately conservative line for flagging levers worth a second
+        # look in the report, well below the 100% (of the wider P10-P90
+        # range) that would mean "bigger than real observed variation".
         flag = "AMBITIOUS" if pct_iqr and pct_iqr >= 45 else "conservative"
         rows.append((lever, dim, delta, stats["iqr"], pct_iqr, stats["p10_90"], pct_p1090, flag))
 
-    rows.sort(key=lambda r: -(r[4] or 0))
+    rows.sort(key=lambda r: -(r[4] or 0))  # most ambitious first, easiest to scan
 
     lines = [
         "| Lever | Dimension | Assumed delta | Real IQR | % of IQR | Real P10-P90 | % of P10-P90 | Flag |",
@@ -84,6 +94,9 @@ def main():
     print(table_md)
 
     over_p1090 = [r for r in rows if r[6] and r[6] >= 100]
+    # The claim in the report ("no lever exceeds real cross-country
+    # variation") rests on this list being empty - printed explicitly
+    # rather than just implied by the table, so a regression is obvious.
     print(f"\nLevers whose assumed effect EXCEEDS the real P10-P90 spread: {len(over_p1090)}")
     for r in over_p1090:
         print(" ", r)

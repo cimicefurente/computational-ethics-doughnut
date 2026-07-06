@@ -28,6 +28,10 @@ def load_country_names():
 
 
 def solve(country_slug, program_files, max_models=8):
+    # --opt-mode=optN asks clingo to keep enumerating models AT the optimum
+    # once found, instead of stopping at the first one - this is what lets
+    # us detect cases like Costa Rica's four equally parsimonious solutions.
+    # --project restricts model comparison to #show'n atoms.
     ctl = clingo.Control(["--opt-mode=optN", f"--models={max_models}", "--project"])
     for f in program_files:
         path = SRC / f
@@ -44,10 +48,19 @@ def solve(country_slug, program_files, max_models=8):
         for model in handle:
             cost = model.cost
             if best_cost is None or cost < best_cost:
+                # A strictly better model showed up: everything collected
+                # so far was only optimal until now, so discard it and
+                # restart the collection at the new best cost.
                 best_cost = cost
                 models = []
                 seen = set()
             if cost == best_cost:
+                # --project alone can still yield two "models" that are
+                # byte-identical once restricted to shown atoms (a known
+                # clingo artifact when the underlying grounding differs on
+                # atoms that aren't shown). Deduping on the sorted, shown
+                # atom tuple is what actually guarantees each entry in
+                # `models` is a genuinely distinct answer set.
                 atoms = tuple(sorted(str(a) for a in model.symbols(shown=True)))
                 if atoms not in seen:
                     seen.add(atoms)
@@ -58,6 +71,10 @@ def solve(country_slug, program_files, max_models=8):
 
 
 def parse_model(atoms):
+    # clingo gives symbols as strings like "select(l1_renewable_energy)" or
+    # "new_bio_value(vietnam,co2,100)" - there's no structured API for this
+    # in the Python bindings' shown-atoms output, so we peel off the
+    # functor name and split the argument list by hand.
     selected = []
     bio_vals = {}
     soc_vals = {}
@@ -122,6 +139,8 @@ def main():
         print("No combination of the available levers satisfies every floor and "
               "ceiling constraint simultaneously.\n")
         print("Running best-effort diagnostic (src/best_effort.lp)...\n")
+        # Only the single best outcome matters here (there's no "second most
+        # parsimonious violation" to report), so max_models=1.
         _, be_models, be_cost = solve(
             args.country_slug, ["best_effort.lp", "countries_facts.lp"], max_models=1
         )

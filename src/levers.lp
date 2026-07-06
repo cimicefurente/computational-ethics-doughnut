@@ -81,5 +81,9 @@ affects_soc(l13_sanitation_infrastructure, sanitation, 25).
 affects_soc(l14_carbon_fee_dividend_reforestation, equality, 15).
 
 % --- competing policy approaches: cannot both be chosen --------------------
+% Only the (l1, l11) pair is stated; the second rule below derives the
+% symmetric fact conflicts(l11, l1) automatically, so doughnut.lp's
+% conflicts(L1, L2) check catches the pair regardless of which order the
+% solver happens to try the two levers in.
 conflicts(l1_renewable_energy, l11_fossil_energy_expansion).
 conflicts(X, Y) :- conflicts(Y, X).

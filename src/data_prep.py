@@ -51,6 +51,11 @@ SOC_DIMS = {
 
 
 def slug_country(name: str) -> str:
+    # clingo's lexer only accepts ASCII identifiers, but several country
+    # names in the spreadsheet don't (e.g. "Côte d'Ivoire"). NFKD splits
+    # accented characters into base letter + combining accent, so encoding
+    # to ascii with errors="ignore" drops just the accent and keeps the
+    # letter, instead of dropping the whole word.
     ascii_name = (
         unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii")
     )
@@ -60,7 +65,7 @@ def slug_country(name: str) -> str:
 
 def sheet_to_dict(ws, dim_map):
     rows = list(ws.iter_rows(values_only=True))
-    header = rows[0][1:]
+    header = rows[0][1:]  # column 0 is the country name, not a dimension
     dims = [dim_map[h] for h in header]
     data = {}
     for r in rows[1:]:
@@ -69,6 +74,9 @@ def sheet_to_dict(ws, dim_map):
             continue
         values = {}
         for dim, v in zip(dims, r[1:]):
+            # Some cells are blank for countries missing that indicator;
+            # openpyxl returns None for those, so the isinstance check
+            # silently skips them instead of writing a bogus 0.
             if isinstance(v, (int, float)):
                 values[dim] = round(v * 100)
         data[country] = values
@@ -80,6 +88,9 @@ def main():
     bio = sheet_to_dict(wb["Biophysical"], BIO_DIMS)
     soc = sheet_to_dict(wb["Social"], SOC_DIMS)
 
+    # A handful of countries appear in only one of the two sheets (missing
+    # social OR biophysical data); the model needs both, so only the
+    # intersection is usable.
     countries = sorted(set(bio) & set(soc))
 
     facts = []
@@ -109,6 +120,9 @@ def main():
 
     print(f"Exported {len(countries)} countries to {OUT_DIR/'countries_facts.lp'}")
 
+    # Quick sanity check on the countries used later in the report/case
+    # studies - catches slug mismatches or missing data early, before they
+    # show up as a confusing "target not found" in run_scenario.py.
     for name in ["Vietnam", "Costa Rica", "United States", "Cuba"]:
         if name in bio:
             print(f"\n{name}:")
