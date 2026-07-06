@@ -166,7 +166,7 @@ levers, declared in `src/levers.lp`, are:
 | L11 | `l11_fossil_energy_expansion`           | Fossil-fuel-based energy access expansion, cheaper and faster than L1, but dirtier; `conflicts(l1, l11)`  | co2 +15                                   | energy_access +20                                                                                 | Deliberately modeled as the cheap/dirty alternative to L1 (Section 4.3)                 |
 | L12 | `l12_decentralization_reform`           | Decentralization / subsidiarity reform                                                                    | —                                         | democratic_quality +20; social_support +5                                                         | Subsidiarity/decentralization literature (Ostrom)                                       |
 | L13 | `l13_sanitation_infrastructure`         | Sanitation infrastructure investment                                                                      | —                                         | sanitation +25                                                                                    | WHO/UNICEF WASH programme reports                                                       |
-| L14 | `l14_carbon_fee_dividend_reforestation` | Carbon fee-and-dividend combined with large-scale reforestation                                           | co2 −50; ehanpp −35                       | equality +15 (fee revenue returned as an equal per-capita dividend)                               | Hansen et al. 2015 (fee-and-dividend); IPCC AR6 WGIII (reforestation as a carbon sink)  |
+| L14 | `l14_carbon_fee_dividend_reforestation` | Carbon fee-and-dividend combined with large-scale reforestation                                           | co2 −50; ehanpp −35                       | equality +15 (fee revenue returned as an equal per-capita dividend)                               | Hansen et al. 2013 (fee-and-dividend); IPCC AR6 WGIII (reforestation as a carbon sink)  |
 
 As Section 5 discusses, every delta in this table is an illustrative
 assumption about direction and rough order of magnitude, not a fitted
@@ -589,19 +589,48 @@ leaves to human political judgement rather than resolving computationally.
 
 ## References
 
+- Autonomy / Alda — Haraldsson, G. D., & Kellam, J. (2021). *Going Public:
+  Iceland's Journey to a Shorter Working Week.* Autonomy / Alda.
+- Ellen MacArthur Foundation (2013). *Towards the Circular Economy:
+  Economic and Business Rationale for an Accelerated Transition.*
 - Frankfurt, H. (1987). Equality as a Moral Ideal. *Ethics*, 98(1), 21–43.
-- Hansen, J. et al. (2015). Assessing "Dangerous Climate Change": Required
+- Hansen, J. et al. (2013). Assessing "Dangerous Climate Change": Required
   Reduction of Carbon Emissions to Protect Young People, Future
   Generations and Nature. *PLOS ONE*.
+- IEA (2021). *Net Zero by 2050: A Roadmap for the Global Energy Sector.*
+  International Energy Agency.
+- ILO (2012). *Social Protection Floors Recommendation, 2012 (No. 202).*
+  International Labour Organization.
 - IPCC (2022). *Climate Change 2022: Mitigation of Climate Change.*
   Working Group III Contribution to AR6.
+- Kallis, G., Kostakis, V., Lange, S., Muraca, B., Paulson, S., &
+  Schmelzer, M. (2018). Research on Degrowth. *Annual Review of
+  Environment and Resources*, 43, 291–316.
 - Nussbaum, M. (2011). *Creating Capabilities: The Human Development
   Approach.* Harvard University Press.
+- OECD (2020). *Innovative Citizen Participation and New Democratic
+  Institutions: Catching the Deliberative Wave.* OECD Publishing.
 - O'Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018).
   A good life for all within planetary boundaries. *Nature
   Sustainability*, 1, 88–95.
+- Ostrom, E. (1990). *Governing the Commons: The Evolution of Institutions
+  for Collective Action.* Cambridge University Press.
+- Piketty, T. (2014). *Capital in the Twenty-First Century* (A.
+  Goldhammer, Trans.). Harvard University Press.
 - Raworth, K. (2017). *Doughnut Economics: Seven Ways to Think Like a
   21st-Century Economist.* Chelsea Green Publishing.
 - Rockström, J. et al. (2009). A safe operating space for humanity.
   *Nature*, 461, 472–475.
 - Sen, A. (1999). *Development as Freedom.* Oxford University Press.
+- UNESCO (2015). *Incheon Declaration and Framework for Action for the
+  Implementation of Sustainable Development Goal 4.*
+- UN-Water (2021). *The United Nations World Water Development Report
+  2021: Valuing Water.* UNESCO, on behalf of UN-Water.
+- WHO & World Bank (2017). *Tracking Universal Health Coverage: 2017
+  Global Monitoring Report.*
+- WHO/UNICEF Joint Monitoring Programme (2021). *Progress on Household
+  Drinking Water, Sanitation and Hygiene 2000–2020: Five Years into the
+  SDGs.*
+- Willett, W. et al. (2019). Food in the Anthropocene: the EAT–Lancet
+  Commission on healthy diets from sustainable food systems. *The
+  Lancet*, 393(10170), 447–492.
