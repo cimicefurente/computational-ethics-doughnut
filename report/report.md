@@ -562,6 +562,17 @@ incremental reform of high-consumption economies.
   model inherits this limitation directly from the underlying O'Neill et
   al. dataset.
 
+- **Binary levers.** Each lever is on or off at one pre-set size, rather
+  than a graduated intensity (a carbon fee can be €20/t or €150/t; this
+  model only encodes one), which trades away realism for a search space
+  small enough to enumerate exhaustively.
+
+- **Limited policy family.** The 14 levers represent one particular
+  package of policies, not the full space of options; alternatives such
+  as nuclear power, carbon capture, or trade and efficiency-led growth
+  are absent, so an unsatisfiable result means infeasible with this
+  menu, not infeasible in principle.
+
 ## 9. Conclusion
 
 Framing Doughnut Economics as an ASP constraint-satisfaction problem over
