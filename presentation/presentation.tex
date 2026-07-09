@@ -1,0 +1,469 @@
+\documentclass[11pt,aspectratio=169]{beamer}
+
+% ---------------------------------------------------------------------------
+% Packages
+% ---------------------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\usepackage{listings}
+\usepackage{graphicx}
+
+% ---------------------------------------------------------------------------
+% Colors: navy blue + bordeaux accent, light zebra-striping tints
+% ---------------------------------------------------------------------------
+\definecolor{doughnutblue}{RGB}{18,42,88}
+\definecolor{doughnutblueDark}{RGB}{10,26,58}
+\definecolor{doughnutbordeaux}{RGB}{128,22,38}
+\definecolor{doughnutgray}{RGB}{243,243,247}
+\definecolor{doughnutcode}{RGB}{248,248,251}
+
+% ---------------------------------------------------------------------------
+% Theme: Madrid base, recolored with the custom navy/bordeaux palette
+% ---------------------------------------------------------------------------
+\usetheme{Madrid}
+\usecolortheme{whale}
+
+\setbeamercolor{structure}{fg=doughnutblue}
+\setbeamercolor{palette primary}{bg=doughnutblue,fg=white}
+\setbeamercolor{palette secondary}{bg=doughnutblue,fg=white}
+\setbeamercolor{palette tertiary}{bg=doughnutblueDark,fg=white}
+\setbeamercolor{palette quaternary}{bg=doughnutblue,fg=white}
+
+\setbeamercolor{title}{fg=white,bg=doughnutblue}
+\setbeamercolor{frametitle}{fg=white,bg=doughnutblue}
+\setbeamercolor{section in head/foot}{bg=doughnutblue,fg=white}
+\setbeamercolor{subsection in head/foot}{bg=doughnutbordeaux,fg=white}
+
+\setbeamercolor{block title}{bg=doughnutbordeaux,fg=white}
+\setbeamercolor{block body}{bg=doughnutgray,fg=black}
+\setbeamercolor{alerted text}{fg=doughnutbordeaux}
+\setbeamercolor{item}{fg=doughnutbordeaux}
+\setbeamercolor{itemize subitem}{fg=doughnutblue}
+
+\setbeamercolor{author in head/foot}{bg=doughnutblueDark,fg=white}
+\setbeamercolor{title in head/foot}{bg=doughnutblue,fg=white}
+\setbeamercolor{date in head/foot}{bg=doughnutbordeaux,fg=white}
+
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{navigation symbols}{}
+
+% ---------------------------------------------------------------------------
+% Custom footline: mini navigation index (current section / total) + page #
+% ---------------------------------------------------------------------------
+\makeatletter
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.26\paperwidth,ht=2.6ex,dp=1.2ex,leftskip=.3cm]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.58\paperwidth,ht=2.6ex,dp=1.2ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}%
+    \ifnum\value{section}>0
+      Section \arabic{section}/8~---~\insertsection%
+    \else
+      Introduction%
+    \fi
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.16\paperwidth,ht=2.6ex,dp=1.2ex,right,rightskip=.3cm plus1fil]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertframenumber{} / \inserttotalframenumber
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatother
+
+% ---------------------------------------------------------------------------
+% Listings style for ASP / clingo code
+% ---------------------------------------------------------------------------
+\lstdefinelanguage{ASP}{
+  morekeywords={not},
+  keywordstyle=\color{doughnutbordeaux}\bfseries,
+  comment=[l]{\%},
+  commentstyle=\color{gray}\itshape,
+  sensitive=true
+}
+\lstset{
+  language=ASP,
+  basicstyle=\ttfamily\scriptsize,
+  breaklines=true,
+  columns=flexible,
+  showstringspaces=false,
+  frame=single,
+  rulecolor=\color{doughnutblue!40},
+  backgroundcolor=\color{doughnutcode},
+  xleftmargin=2pt,
+  xrightmargin=2pt,
+}
+
+% ---------------------------------------------------------------------------
+% Zebra tables
+% ---------------------------------------------------------------------------
+\newcommand{\tblhead}[1]{\textcolor{white}{\textbf{#1}}}
+
+% ---------------------------------------------------------------------------
+% Title data
+% ---------------------------------------------------------------------------
+\title[Doughnut ASP Model]{A Doughnut-Economics Constraint Model of\\ Floor and Ceiling Trade-offs}
+\author[T.~Gualandi]{Thomas Gualandi}
+\institute[Computational Ethics 2026]{Computational Ethics 2026\\ Prof.~Lagioia \quad Prof.~Giuseppe Pisano}
+\date{}
+
+% ---------------------------------------------------------------------------
+% (Per-section "Outline" recap frames removed to shorten the deck; the
+% master table of contents right after the title page is the only TOC.)
+% ---------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \small
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+% =============================================================================
+\section[GDP Critique]{Beyond GDP: Raworth's Critique of Growth}
+% =============================================================================
+
+\begin{frame}{The Starting Point: Raworth's Critique of GDP}
+  \begin{itemize}
+    \item The current economic model treats \alert{GDP growth} as the goal every country pursues within the global economic framework.
+    \item Kate Raworth's critique is that the economy is \alert{not a self-contained system}: it is embedded in society, politics, and ecology, and continuously affects all three. A model that measures success only by GDP cannot notice when it is damaging these other dimensions.
+    \item In response, Raworth proposes the \textbf{doughnut model}: a country succeeds when it simultaneously
+    \begin{itemize}
+      \item guarantees society a set of fundamental benefits, \emph{and}
+      \item keeps its ecological consumption below the point of no return.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+% =============================================================================
+\section[Philosophical Frameworks]{Two Philosophical Frameworks}
+% =============================================================================
+
+\begin{frame}{The Two Philosophical Frameworks}
+  \footnotesize
+  The study combines Frankfurt's sufficientarianism, together with Sen and Nussbaum's capability approach, to define the social floor, and Rockström and Steffen's planetary boundaries to define the ecological ceiling.
+  \begin{itemize}
+    \item \textbf{Frankfurt (sufficientarianism):} the morally relevant goal is \alert{sufficiency}, each person having enough for their own needs, rather than equality of resources; chasing equality instead alienates people into status competition.
+    \item \textbf{Sen (1999):} development should be judged by \alert{ends} (people's real freedom to live the life they choose) rather than by \textbf{means} (GDP, income).
+    \item \textbf{Nussbaum (2011):} building directly on Sen, defines \textbf{ten central capabilities} owed to every citizen as non-derogable rights. \textbf{Consequence for the model:} the direct basis for encoding the social floor as \alert{11 independent hard constraints}, not one aggregate index.
+    \item \textbf{Rockström \& Steffen:} define nine \textbf{planetary boundaries}, non-linear Earth-system processes with tipping points; three (four in the Steffen et al.\ 2015 update) already crossed. \textbf{Consequence for the model:} coupled but non-substitutable limits, hence encoded as \alert{independent, non-negotiable ecological constraints}.
+  \end{itemize}
+  Frankfurt and the Sen-Nussbaum line are two independent philosophical traditions, born of different questions. They converge on the same structural conclusion: a sharp \textbf{sufficiency threshold} exists, below which a deficit cannot be compensated by a surplus elsewhere.
+\end{frame}
+
+% =============================================================================
+\section[O'Neill Quantification]{Empirical Quantification: O'Neill et al.\ (2018)}
+% =============================================================================
+
+\begin{frame}{Empirical Quantification: O'Neill et al.\ (2018)}
+  \footnotesize
+  \begin{itemize}
+    \item The doughnut model becomes empirically quantifiable in \textbf{2018}, when O'Neill, Fanning, Lamb, and Steinberger collect data from \alert{151 nations} across \alert{7 ecological} and \alert{11 social} dimensions for each country.
+    \item The authors argue that natural resources constitute the primary \textbf{physical means} and human well-being the ultimate \textbf{end}; the two extremes of the spectrum interact through each state's own technological, social, and infrastructural provisioning systems.
+    \item \textbf{No country in the world} lies within the doughnut. Achievement of social goals is linked to resource consumption through a \alert{non-linear saturation relationship}, so that beyond a certain threshold each additional unit of resources consumed produces diminishing marginal social benefit. Satisfying \textbf{physical} needs (nutrition, sanitation) requires a markedly smaller biophysical footprint than satisfying \textbf{qualitative or perceived} goals (income, life satisfaction).
+  \end{itemize}
+  \begin{block}{What this supplies to the ASP model}
+    The 151 countries, the 18 dimensions, and the encoding of every value as a \textbf{ratio to a threshold} ($\geq 100$ for the floor, $\leq 100$ for the ceiling) all come directly from this study, which supplies both the empirical dataset and the logical schema of the entire codebase.
+  \end{block}
+\end{frame}
+
+% =============================================================================
+\section[Policy Trajectories]{Policy Trajectories: IPCC AR6 and IEA NZE2050}
+% =============================================================================
+
+\subsection{IPCC AR6 WGIII}
+\begin{frame}{IPCC AR6 WGIII}
+  \begin{itemize}
+    \item The IPCC Working Group III report synthesizes the scientific consensus on the feasibility of meeting the Paris Agreement targets, outlining decarbonization pathways to stay \alert{within 1.5\textdegree C} (2\textdegree C is the less ambitious reference limit, not the central target).
+    \item The report also notes the collapse in the cost of low-emission technologies, now competitive with fossil fuels.
+    \item Rapid, deep emissions cuts are needed across all sectors, plus a restructuring of the \textbf{AFOLU} sector (agriculture, forestry, land use).
+    \item Global capital to close investment gaps is sufficient, but current flows remain \textbf{three to six times} below required levels, penalizing developing countries most.
+  \end{itemize}
+\end{frame}
+
+\subsection{IEA Net Zero by 2050}
+\begin{frame}{IEA Net Zero by 2050}
+  \footnotesize
+  \begin{itemize}
+    \item The pathway requires halting, from 2021, approval of \alert{new} fossil-fuel fields and \alert{new} coal plants without emissions-capture systems.
+    \item By 2050, nearly \textbf{90\%} of global \emph{electricity generation} must come from renewables (70\% from solar and wind): this figure refers to the \textbf{electricity mix}, not total energy demand, since electricity covers only about half of total final consumption in the NZE scenario.
+    \item By 2030: full universal access to electricity (\textbf{$\sim$785 million} people) and to clean cooking systems (\textbf{$\sim$2.6 billion} people).
+  \end{itemize}
+  \begin{block}{What these two sources validate in the model}
+    IPCC AR6 WGIII and IEA NZE2050 empirically validate the direction of lever \texttt{l1\_renewable\_energy}, and the explicit conflict the code imposes between it and \texttt{l11\_fossil\_energy\_expansion}.
+  \end{block}
+\end{frame}
+
+% =============================================================================
+\section[The 14 Levers]{How the Sources Justify the 14 Levers}
+% =============================================================================
+
+\subsection{What Levers Are, and Where the Values Come From}
+\begin{frame}{What Is a Lever, and What Its Source Does (Not) Prove}
+  \footnotesize
+  \begin{itemize}
+    \item A lever is a \alert{binary intervention}: selected or not, with no in-between values. If selected, it adds a \textbf{fixed delta} to every dimension it touches; the solver only decides \emph{whether} to apply it, never \emph{how much}. Some levers touch a single dimension (e.g.\ \texttt{l13\_sanitation\_infrastructure}), others more than one (e.g.\ \texttt{l1\_renewable\_energy} on both CO2 and energy access), and two (\texttt{l1} and \texttt{l11\_fossil\_energy\_expansion}) are \alert{mutually exclusive}.
+    \item Every lever is accompanied by an ``indicative'' source, but \alert{none of these sources provides a causal, per-country estimate} of that policy's effect: no dataset of empirically estimated causal effects exists for these policies. Each source justifies only the \textbf{direction} and a \textbf{plausible order of magnitude}: the delta itself remains an illustrative assumption, not a measured parameter.
+    \item This is why the project includes \texttt{representativeness\_check.py}, which makes the assumption \alert{verifiable} instead of leaving it as a stated-but-uncontrolled limitation.
+  \end{itemize}
+\end{frame}
+
+\subsection{representativeness\_check.py}
+\begin{frame}{What \texttt{representativeness\_check.py} Does}
+  \begin{itemize}
+    \item The script does \emph{not} estimate a lever's effect: it only checks that it is \alert{not implausible}, by comparing it to how much the same dimension already varies naturally among the 151 real countries in the O'Neill et al.\ dataset.
+    \item For each indicator, it compares how much ``normal'' countries (25th--75th percentile) differ from each other, and how much countries at the non-anomalous extremes (10th--90th percentile) differ, then asks: \emph{is the jump this lever promises smaller than the jump that already exists between real countries on this indicator?}
+    \item If yes, the lever is \textbf{``representative''}: it does not ask a country to make a leap bigger than reality itself shows to already be possible.
+    \item \textbf{Result} (\texttt{report/representativeness\_table.md}): no lever exceeds the real P10--P90 range. Most are \alert{conservative} (\texttt{l1}'s effect on CO2 uses only 7\% of the true IQR); a smaller group is more \alert{ambitious}, between 45\% and 89\% of the IQR (\texttt{l6, l9, l8, l12, l7, l5, l14}). This does not make the assumptions true, but anchors them to observed variation instead of arbitrary numbers.
+  \end{itemize}
+\end{frame}
+
+\subsection{The 14 Levers}
+\begin{frame}{The 14 Levers: Ecological / Resource Group}
+  \scriptsize
+  These five levers act primarily on the \alert{ecological ceiling}; \texttt{l11} is the deliberate ``dirty'' alternative to \texttt{l1}, and the two are coded as mutually exclusive.
+  \renewcommand{\arraystretch}{0.92}
+  \rowcolors{2}{doughnutgray}{white}
+  \begin{tabular}{@{}p{3.1cm}p{3.6cm}p{5cm}@{}}
+    \rowcolor{doughnutblue} \tblhead{Lever} & \tblhead{Effect ($\Delta$)} & \tblhead{Source} \\
+    \texttt{l1\_renewable\_\allowbreak energy} & co2 $-35$; energy\_access $+15$ &
+      IPCC AR6 WGIII \& IEA NZE2050: both validate renewables as high-potential for emissions cuts with simultaneous energy-access expansion. \\
+    \texttt{l2\_circular\_\allowbreak economy} & material\_footprint $-30$; eco\_footprint $-15$ &
+      Ellen MacArthur Foundation (2013): reuse, recycling, extended product life reduce virgin material demand. \\
+    \texttt{l3\_sustainable\_\allowbreak agriculture} & nitrogen $-25$; phosphorus $-25$; ehanpp $-30$; nutrition $-10$ (explicit trade-off) &
+      FAO / EAT--Lancet Commission (Willett et al., 2019): N/P load and land-pressure cuts from less-intensive agriculture, with possible short-term nutritional trade-offs. \\
+    \texttt{l4\_water\_\allowbreak efficiency} & blue\_water $-20$ &
+      UN-Water (2021), \emph{Valuing Water}: efficiency infrastructure and demand management on freshwater consumption. \\
+    \texttt{l11\_fossil\_energy\_\allowbreak expansion} (conflicts with \texttt{l1}) & co2 $+15$; energy\_access $+20$ &
+      Deliberately modeled as the cheaper but ``dirty'' alternative to \texttt{l1}, forcing an explicit normative fork. \\
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{The 14 Levers: Socio-Economic Floor Group}
+  \scriptsize
+  These five levers act primarily on the \alert{social floor}, spanning income support, health, taxation, and education.
+  \renewcommand{\arraystretch}{0.92}
+  \rowcolors{2}{doughnutgray}{white}
+  \begin{tabular}{@{}p{3.1cm}p{3.6cm}p{5cm}@{}}
+    \rowcolor{doughnutblue} \tblhead{Lever} & \tblhead{Effect ($\Delta$)} & \tblhead{Source} \\
+    \texttt{l5\_working\_time\_\allowbreak reduction} & eco\_footprint $-20$; material\_footprint $-15$; life\_satisfaction $+22$; employment $+10$ &
+      Kallis et al.\ (2018) on degrowth; Icelandic short-week trial (Autonomy/Alda, 2021): reduced ecological throughput with stable-or-better employment and life satisfaction. \\
+    \texttt{l6\_universal\_\allowbreak basic\_income} & income $+20$; sanitation $+15$; nutrition $+10$ &
+      ILO Recommendation 202/2012 on Social Protection Floors: links minimum-income guarantees to access to essential goods. \\
+    \texttt{l7\_universal\_\allowbreak healthcare} & healthy\_life\_exp $+20$; social\_support $+10$ &
+      WHO \& World Bank (2017), \emph{Tracking Universal Health Coverage}. \\
+    \texttt{l9\_wealth\_tax} & equality $+25$; income $+10$ &
+      Piketty, \emph{Capital in the Twenty-First Century} (2014): the most theoretical/macro source in the table, most exposed to objections in discussion. \\
+    \texttt{l10\_education\_\allowbreak investment} & education $+20$; employment $+10$ &
+      UNESCO (2015), Incheon Declaration / SDG4 framework: links education investment to downstream employment outcomes. \\
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{The 14 Levers: Governance \& Special-Case Group}
+  \scriptsize
+  These four levers cover \alert{governance quality} and two special cases: \texttt{l14} closes both floor and ceiling gaps at once, while \texttt{l13} is the most direct mapping in the whole table.
+  \renewcommand{\arraystretch}{0.92}
+  \rowcolors{2}{doughnutgray}{white}
+  \begin{tabular}{@{}p{3.1cm}p{3.6cm}p{5cm}@{}}
+    \rowcolor{doughnutblue} \tblhead{Lever} & \tblhead{Effect ($\Delta$)} & \tblhead{Source} \\
+    \texttt{l8\_participatory\_\allowbreak governance} & democratic\_quality $+30$; social\_support $+10$ &
+      OECD (2020), \emph{Catching the Deliberative Wave}: effect of participatory budgets and deliberative bodies on perceived democratic legitimacy. \\
+    \texttt{l12\_decentralization\_\allowbreak reform} & democratic\_quality $+20$; social\_support $+5$ &
+      Ostrom, \emph{Governing the Commons} (1990): polycentric governance and its effects on collective action and local legitimacy. \\
+    \texttt{l13\_sanitation\_\allowbreak infrastructure} & sanitation $+25$ &
+      WHO/UNICEF JMP WASH report (2021): the source literally measures the indicator the lever changes. \\
+    \texttt{l14\_carbon\_fee\_\allowbreak dividend\_\allowbreak reforestation} & co2 $-50$; ehanpp $-35$; equality $+15$ &
+      Hansen et al.\ (2013, \emph{PLOS ONE}) for fee-and-dividend (equal per-capita dividend explains the equality effect); IPCC AR6 WGIII for reforestation as a carbon sink. \\
+  \end{tabular}
+\end{frame}
+
+% =============================================================================
+\section[ASP Code]{The ASP Code}
+% =============================================================================
+
+\subsection{The Pipeline}
+\begin{frame}{A Six-Step Pipeline}
+  \footnotesize
+  \begin{enumerate}
+    \item \textbf{\texttt{data\_prep.py}}: transforms the O'Neill et al.\ data sheet into ASP facts (\texttt{bio\_value}/\texttt{soc\_value} per country, dimension, value).
+    \item \textbf{\texttt{levers.lp}}: declares the 14 levers and their effects (\texttt{affects\_bio}/\texttt{affects\_soc}), with the indicative sources discussed in Section 5.
+    \item \textbf{\texttt{doughnut.lp}}: the central program, choosing a subset of levers and checking whether it satisfies floor and ceiling together.
+    \item \textbf{\texttt{best\_effort.lp}}: kicks in only when no subset works, measuring how much stays unsatisfied in the best possible combination.
+    \item \textbf{\texttt{run\_scenario.py}}: orchestrates everything by calling \texttt{clingo} and writes the results used in Section 7.
+    \item \textbf{\texttt{representativeness\_check.py}}: separately verifies lever plausibility (already discussed in Section 5).
+  \end{enumerate}
+  \begin{alertblock}{Where the argument actually lives}
+    Steps 1, 2, 5, 6 are necessary but ``service'' steps. The real argumentative content, where the report's philosophical theses become verifiable code, is entirely in \texttt{doughnut.lp} and \texttt{best\_effort.lp}, the focus of the rest of this section.
+  \end{alertblock}
+\end{frame}
+
+\subsection{Facts and Levers}
+\begin{frame}{Facts and Levers}
+  \begin{itemize}
+    \item Every country is a series of facts \texttt{bio\_value(country, dimension, value)} and \texttt{soc\_value(country, dimension, value)}, with values scaled $\times 100$ to work with integers (\texttt{clingo} has no native decimal numbers).
+    \item Every lever is a fact \texttt{lever(L)} accompanied by \texttt{affects\_bio(L, dimension, delta)} and/or \texttt{affects\_soc(L, dimension, delta)}: a fixed, signed delta, on the same $\times 100$ scale.
+  \end{itemize}
+\end{frame}
+
+\subsection{doughnut.lp}
+\begin{frame}[fragile]{\texttt{doughnut.lp}: Choice and Hard Constraints}
+\begin{lstlisting}
+{ select(L) } :- lever(L).
+
+:- select(L1), select(L2), conflicts(L1, L2).
+
+bio_effect(Dim, Sum) :- bio_dim(Dim),
+    Sum = #sum { Delta,L : select(L), affects_bio(L, Dim, Delta) }.
+soc_effect(Dim, Sum) :- soc_dim(Dim),
+    Sum = #sum { Delta,L : select(L), affects_soc(L, Dim, Delta) }.
+
+new_bio_value(C, Dim, V + E) :- target(C), bio_value(C, Dim, V), bio_effect(Dim, E).
+new_soc_value(C, Dim, V + E) :- target(C), soc_value(C, Dim, V), soc_effect(Dim, E).
+
+ceiling_ok(C, Dim) :- new_bio_value(C, Dim, V), V <= 100.
+floor_met(C, Dim)  :- new_soc_value(C, Dim, V), V >= 100.
+
+:- target(C), bio_value(C, Dim, _), not ceiling_ok(C, Dim).
+:- target(C), soc_value(C, Dim, _), not floor_met(C, Dim).
+
+#minimize { 1,L : select(L) }.
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}{Reading the Mechanics, and Where Philosophy Becomes Code}
+  \footnotesize
+  \begin{itemize}
+    \item \textbf{Line 1} (curly braces) is a \alert{choice}: for each of the 14 levers, the solver is free to activate it or not ($2^{14}$ candidate combinations); \textbf{line 3} uses \texttt{conflicts/2} to discard any combination activating \texttt{l1} and \texttt{l11} together. The two \texttt{\#sum} aggregates sum the deltas of all selected levers, dimension by dimension, and add the result to the country's starting value (\texttt{target(C)}), giving the new post-reform value.
+    \item The last two rules before \texttt{\#minimize} are genuine \alert{headless rules} (\texttt{:- body.}), each forbidding its body from being true: one discards any answer where an ecological dimension exceeds 100, the other any answer where a social dimension stays below 100, checked \textbf{one dimension at a time} rather than as an aggregate score. This is where \textbf{sufficientarianism and strong sustainability become code}: a solution fixing 17 of 18 dimensions is discarded anyway, since no surplus elsewhere can compensate for a single deficit or overshoot.
+    \item Finally, \texttt{\#minimize} makes the solver prefer, among surviving solutions, those with \textbf{fewer active levers}, a parsimony criterion stated explicitly in the code.
+  \end{itemize}
+\end{frame}
+
+\subsection{best\_effort.lp}
+\begin{frame}[fragile]{\texttt{best\_effort.lp}: When No Solution Exists}
+  If no lever combination satisfies both constraints, \texttt{doughnut.lp} correctly answers UNSAT, but a bare ``no'' is not useful for a political or ethical discussion. \texttt{best\_effort.lp} reuses the exact same facts and effect-summing machinery, but \alert{removes} the two hard constraints and instead minimizes the remaining overshoot/deficit:
+\begin{lstlisting}
+overshoot(Dim, V - 100) :- new_bio_value(_, Dim, V), V > 100.
+deficit(Dim, 100 - V)   :- new_soc_value(_, Dim, V), V < 100.
+
+#minimize { P,Dim : overshoot(Dim, P) }.
+#minimize { P,Dim : deficit(Dim, P) }.
+\end{lstlisting}
+  \begin{itemize}
+    \item Selecting no lever at all is always a valid (if poor) answer, so this diagnostic model is \textbf{always solvable}.
+    \item It is invoked only \emph{after} \texttt{doughnut.lp} has already returned UNSAT.
+  \end{itemize}
+\end{frame}
+
+% =============================================================================
+\section[Results]{Results and Conclusions}
+% =============================================================================
+
+\subsection{Why These Three Countries}
+\begin{frame}{Why These Three Countries}
+  \begin{itemize}
+    \item Among the 151 countries in the O'Neill dataset, \textbf{Vietnam, Costa Rica, and the United States} were selected by ranking all countries on the severity of ecological overshoot and social deficit.
+    \item This spans a \alert{spectrum of difficulty}: an easy case, an intermediate case, and a structurally hard case.
+  \end{itemize}
+\end{frame}
+
+\subsection{Vietnam}
+\begin{frame}{Vietnam: Solvable, with Equivalent Alternatives}
+  \footnotesize
+  \textbf{Baseline:} a single ecological overshoot (CO2 at 135) and four social deficits (democratic quality, sanitation, equality, life satisfaction); 17 of 18 dimensions tracked (Vietnam lacks the \texttt{education} datapoint). The problem is \alert{solvable}: \texttt{doughnut.lp} finds two optimal models, both six levers, differing only in how CO2 is closed.
+  \renewcommand{\arraystretch}{1.15}
+  \rowcolors{2}{doughnutgray}{white}
+  \begin{tabular}{@{}p{1.7cm}p{7cm}p{3.9cm}@{}}
+    \rowcolor{doughnutblue} \tblhead{Model} & \tblhead{Levers} & \tblhead{Outcome} \\
+    1 & \texttt{l1, l5, l8, l9, l12, l13} & All 17 dims.\ inside the doughnut \\
+    2 & \texttt{l5, l8, l9, l12, l13, l14} & All 17 dims.\ inside the doughnut \\
+  \end{tabular}
+
+  Both models share a 5-lever core and differ only in \texttt{l1\_renewable\_energy} vs.\ \texttt{l14\_carbon\_fee\_dividend\_reforestation} to close CO2: L14 also cuts eHANPP deeper and lifts equality more (per-capita dividend), but leaves energy\_access unchanged, unlike L1. The two models are formally equivalent under the doughnut constraints, though their downstream consequences differ.
+\end{frame}
+
+\subsection{Costa Rica}
+\begin{frame}{Costa Rica: Infeasible at 13 Levers, Feasible at 14}
+  \footnotesize
+  \textbf{Baseline:} \alert{6 of 7} ecological dimensions overshoot, with only \textbf{two small} social deficits (equality, employment). With the initial 13-lever menu the problem is \alert{infeasible} (best-effort residual violation = 77 points, still failing CO2/eHANPP/equality). Adding the 14th lever (\texttt{l14}, fee-and-dividend + reforestation) makes it \alert{solvable}, with \textbf{four} equivalent optimal models of \textbf{eight levers} each, sharing a six-lever core:
+  \renewcommand{\arraystretch}{1.15}
+  \rowcolors{2}{doughnutgray}{white}
+  \begin{tabular}{@{}p{1.3cm}p{9.7cm}@{}}
+    \rowcolor{doughnutblue} \tblhead{Model} & \tblhead{Core (\texttt{l1, l2, l3, l5, l9, l14}) $+$ two of} \\
+    1 & \texttt{l6} (UBI), \texttt{l12} (decentralization) \\
+    2 & \texttt{l6} (UBI), \texttt{l8} (participatory governance) \\
+    3 & \texttt{l8} (participatory governance), \texttt{l13} (sanitation) \\
+    4 & \texttt{l12} (decentralization), \texttt{l13} (sanitation) \\
+  \end{tabular}
+
+  The four solutions are \textbf{formally equivalent} w.r.t.\ the doughnut constraints but build \alert{different societies}: participatory governance vs.\ top-down decentralization reflect different ideas of democratic legitimacy. The model correctly leaves this choice to human political judgment instead of resolving it computationally.
+\end{frame}
+
+\subsection{United States}
+\begin{frame}{United States: Structurally Infeasible}
+  \footnotesize
+  \textbf{Baseline:} overshoots \alert{all seven} ecological dimensions, some by an order of magnitude (\textbf{CO2 at 1314}, over 13$\times$ the sustainable share), while the social floor is already \textbf{almost entirely met}.
+  \begin{itemize}
+    \item Even with all \textbf{14} levers available, the problem remains \alert{infeasible}: there is no optimal, constraint-satisfying solution to tabulate, only a best-effort diagnostic.
+    \item The best-effort model selects \textbf{8 levers} (\texttt{l1, l2, l3, l4, l5, l9, l10, l14}), the largest and most varied set of the three case studies. This fully closes the social floor (11/11 dimensions met) but leaves \textbf{5 of 7} ecological ceilings breached, for a \textbf{residual violation of 2815 points} ($\sim 36\times$ Costa Rica's pre-L14 figure). The impossibility concentrates in CO2, phosphorus, and nitrogen, where US overshoot is most extreme to begin with.
+  \end{itemize}
+  \begin{alertblock}{What this reproduces}
+    This reproduces, as a logical consequence of the model rather than a restatement of the paper's results, O'Neill et al.'s (2018) central finding: no country satisfies the social floor without breaching the ecological ceiling.
+  \end{alertblock}
+\end{frame}
+
+\subsection{Conclusions}
+\begin{frame}{What the ASP Formulation Adds}
+  Treating Doughnut Economics as an ASP constraint-satisfaction problem does two things a purely descriptive or optimization account would not:
+  \begin{enumerate}
+    \item It forces every implicit ethical commitment to become \alert{explicit and verifiable}: treating floor and ceiling as hard constraints, not terms in a weighted objective function, is a direct, auditable encoding of sufficientarianism and strong sustainability.
+    \item When the problem is infeasible, the model does not stop at a failure flag: it produces a \alert{quantified account} of which constraints remain out of reach, and by how much, turning a solver result into something a policy discussion can actually use.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}{The Robust Finding: Orders of Magnitude}
+  \begin{itemize}
+    \item The most robust finding is the \alert{order of magnitude} across the three cases, more stable than the single feasibility verdict, which depends on assumed lever magnitudes: the US residual violation (\textbf{2815}) is about \textbf{two orders of magnitude} above Costa Rica's pre-L14 figure (\textbf{77}).
+    \item \textbf{Vietnam} shows the problem is comfortably solvable under non-extreme conditions.
+    \item \textbf{Costa Rica} shows an intermediate case, solvable only with a more ambitious lever, and even then via several institutionally distinct paths whose final choice remains political.
+    \item \textbf{United States} shows the structural limit of marginal reform alone when ecological overshoot is on a much larger scale than the social deficit.
+  \end{itemize}
+\end{frame}
+
+% =============================================================================
+\section[Limitations]{Model Limitations}
+% =============================================================================
+
+\begin{frame}{Model Limitations (1/2)}
+  \footnotesize
+  It is worth presenting the limits directly, as part of the argument: they are conscious modeling choices, each motivated, rather than blind spots discovered later.
+  \begin{itemize}
+    \item \textbf{Lever magnitudes are assumptions, not estimates.} The representativeness check bounds them to real cross-country variation, but does not make them causal. A different, equally defensible, set of magnitudes could make Costa Rica infeasible again, or the US implausibly solvable. What survives this uncertainty is the \alert{order of magnitude} between cases, far more robust than any single verdict.
+    \item \textbf{The model is static.} It compares a baseline year to a post-reform state, saying nothing about transition dynamics, lever implementation timing, or path-dependencies between levers (e.g.\ renewables becoming cheaper after circular economy has already cut material demand). A dynamic extension would need a temporal ASP formulation or a hybrid with system-dynamics simulation.
+    \item \textbf{Lever effects are additive.} The code sums each selected lever's effect with no interaction terms, while combined policies can have synergies or redundancies in reality. This simplification keeps the best-effort diagnostic model well-defined and fast to compute, at the cost of realism.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Model Limitations (2/2)}
+  \footnotesize
+  \begin{itemize}
+    \item A deliberate choice: it reports the explanation in units an ethical argument can use, such as residual floor or ceiling violation, rather than a set of conflicting logical rules that would be harder to interpret substantively. A minimal-core extraction via \texttt{clingo}'s assumption-based mechanisms was considered and set aside for the added complexity of handling \texttt{conflicts/2} inside an assumption set; it remains a natural next step for future work.
+    \item Both floor and ceiling are national averages: a country that meets an income threshold on average can still have a large share of its population below it. The model inherits this limit directly from the underlying O'Neill et al.\ dataset.
+    \item \textbf{Levers are binary.} Each lever is either fully active or inactive, applied at one single pre-fixed intensity rather than at a graduated level. The carbon-fee lever \texttt{l14}, for example, encodes only one fee rate, whereas a real carbon fee could be set anywhere between roughly \texteuro20/t and \texteuro150/t. This binary design trades realism for a search space small enough to be exhaustively enumerated.
+    \item \textbf{The policy family is limited.} The 14 levers represent one particular policy package, not the entire space of possible options: alternatives such as nuclear power, carbon capture, or efficiency/trade-driven growth are absent. An infeasible result therefore means \alert{``infeasible with this menu,''} not ``infeasible in principle.''
+  \end{itemize}
+\end{frame}
+
+\end{document}
