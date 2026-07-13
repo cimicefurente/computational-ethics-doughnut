@@ -4,6 +4,7 @@ __pycache__/
 results/*.json
 notes/
 .tokensave/
+presentation/
 
 # LaTeX build artifacts
 *.aux

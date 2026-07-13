@@ -598,12 +598,47 @@ ambitious lever and, even then, through several institutionally distinct
 and formally equivalent paths whose final choice the model correctly
 leaves to human political judgement rather than resolving computationally.
 
+## 10. Transparency note: use of AI tools
+
+I used Claude Code, an AI assistant from Anthropic, through most of this
+project. I used it early on to brainstorm, including how to pick and
+frame a research topic that would actually work for a computational
+ethics assignment. It helped me find sources for the report, and it
+helped me work out the 14 levers in Section 4.2: what each one should do,
+and which source could plausibly back that up. It also helped me
+formalize the doughnut model as an ASP problem in Section 4. It helped me
+write and revise the Python and ASP files, and it helped me edit the
+prose of this report and of the presentation. I used it too for small
+fixes, like a wrong citation year or a table that broke when I edited it.
+
+Even so, the calls that matter were mine. I chose sufficientarianism and
+the capability approach for the social floor, and strong sustainability
+for the ecological ceiling, back in Section 2. Out of the lever ideas we
+brainstormed, I decided which fourteen made the cut and roughly how
+strong each effect should be. I picked Vietnam, Costa Rica and the United
+States as case studies in Section 7, and I decided how to read the
+solver's output and what to write up as a limitation in Section 8. I
+checked everything the assistant wrote before it went into the report,
+and I take responsibility for what's here.
+
+Article 50 of the AI Act (Regulation (EU) 2024/1689) says people should
+be told when they are interacting with an AI system, and that
+AI-generated text should be marked as such unless a person reviewed it
+and takes responsibility for it. This report is a university assignment,
+so it sits outside what that article was mainly written for. I am adding
+the note anyway, since Section 2 already argues that this kind of choice
+should be stated plainly.
+
 ## References
 
 - Autonomy / Alda — Haraldsson, G. D., & Kellam, J. (2021). *Going Public:
   Iceland's Journey to a Shorter Working Week.* Autonomy / Alda.
 - Ellen MacArthur Foundation (2013). *Towards the Circular Economy:
   Economic and Business Rationale for an Accelerated Transition.*
+- European Union (2024). *Regulation (EU) 2024/1689 of the European
+  Parliament and of the Council Laying Down Harmonised Rules on
+  Artificial Intelligence (Artificial Intelligence Act).* Official
+  Journal of the European Union.
 - Frankfurt, H. (1987). Equality as a Moral Ideal. *Ethics*, 98(1), 21–43.
 - Hansen, J. et al. (2013). Assessing "Dangerous Climate Change": Required
   Reduction of Carbon Emissions to Protect Young People, Future
